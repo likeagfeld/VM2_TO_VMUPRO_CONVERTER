@@ -1,0 +1,1 @@
+python -m PyInstaller VMUPro_Converter.spec
