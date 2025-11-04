@@ -11,6 +11,7 @@ Credits:
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk, scrolledtext, simpledialog
 import os
+import sys
 import shutil
 import re
 import json
@@ -25,6 +26,17 @@ from io import BytesIO, StringIO
 
 # Embedded logo data (will be replaced with actual base64 encoded image)
 LOGO_BASE64 = ""
+
+def get_resource_path(relative_path):
+    """Get absolute path to resource, works for dev and for PyInstaller"""
+    try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+    except AttributeError:
+        # Running in normal Python environment
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
 
 class GitHubCSVDownloader:
     def __init__(self, progress_callback=None, status_callback=None):
@@ -176,8 +188,9 @@ class VMUProApp:
         
         # Set window icon if available
         try:
-            if os.path.exists('icon.ico'):
-                self.root.iconbitmap('icon.ico')
+            icon_path = get_resource_path('icon.ico')
+            if os.path.exists(icon_path):
+                self.root.iconbitmap(icon_path)
         except:
             pass
         
@@ -200,15 +213,18 @@ class VMUProApp:
         self.create_ui()
     
     def load_database(self):
-        # Try local pipe-delimited database first
-        if Path('vmupro_gamedb.txt').exists():
+        # Try local pipe-delimited database first (check bundled path for PyInstaller)
+        db_path = get_resource_path('vmupro_gamedb.txt')
+        if Path(db_path).exists():
             try:
-                self.redump_db, self.gid_to_traditional = self.load_pipe_delimited_db('vmupro_gamedb.txt')
+                self.redump_db, self.gid_to_traditional = self.load_pipe_delimited_db(db_path)
                 print(f"Loaded {len(self.redump_db)} games from vmupro_gamedb.txt")
                 print(f"Created {len(self.gid_to_traditional)} GID mappings")
                 return
             except Exception as e:
                 print(f"Error loading vmupro_gamedb.txt: {e}")
+                import traceback
+                traceback.print_exc()
 
         # Fall back to JSON databases for compatibility
         db_files = ['vmupro_gamedb.json', 'redump_dreamcast.json']
