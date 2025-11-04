@@ -62,12 +62,31 @@ class GitHubCSVDownloader:
 
             self.log("Connecting to GitHub...")
             with urllib.request.urlopen(req, context=ssl_context, timeout=30) as response:
-                content = response.read().decode('utf-8')
-                self.log(f"Downloaded {len(content)} bytes")
-                return content
+                raw_content = response.read()
+                self.log(f"Downloaded {len(raw_content)} bytes")
+
+                # Try multiple encodings - the CSV file may not be UTF-8
+                encodings = ['utf-8', 'utf-8-sig', 'windows-1252', 'latin-1', 'iso-8859-1']
+                content = None
+
+                for encoding in encodings:
+                    try:
+                        content = raw_content.decode(encoding)
+                        self.log(f"Successfully decoded using {encoding} encoding")
+                        return content
+                    except UnicodeDecodeError:
+                        continue
+
+                # If all encodings fail, use latin-1 with errors='replace'
+                if content is None:
+                    content = raw_content.decode('latin-1', errors='replace')
+                    self.log("Using fallback Latin-1 encoding with error replacement")
+                    return content
 
         except Exception as e:
             self.log(f"Error downloading from GitHub: {e}")
+            import traceback
+            self.log(traceback.format_exc())
             return None
 
     def parse_csv_content(self, csv_content):
