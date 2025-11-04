@@ -1787,13 +1787,23 @@ This tool automatically detects game IDs using:
         
         for game_id in sorted(game_files.keys()):
             files = game_files[game_id]
-            
+
             # Handle unknown folders
             if 'unknown_' in game_id or game_id.startswith('UNKNOWN'):
                 title = "Unknown Game (requires manual mapping)"
                 region = '?'
             else:
-                info = self.redump_db.get(game_id, {})
+                # Strip hyphens for database lookup
+                # Folder name: "HDR-0080" → Database key: "HDR0080"
+                game_id_stripped = game_id.replace('-', '').replace('_', '')
+                info = self.redump_db.get(game_id_stripped, {})
+
+                # If not found with stripped version, try fuzzy matching
+                if not info:
+                    matched_id = self.fuzzy_match_game_id(game_id)
+                    if matched_id:
+                        info = self.redump_db.get(matched_id, {})
+
                 title = info.get('title', 'Unknown Game')
                 region = info.get('region', '?')
             
