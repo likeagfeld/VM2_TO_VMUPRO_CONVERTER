@@ -1453,60 +1453,131 @@ This tool automatically detects game IDs using:
         
         self.status_label.config(text=f"Found {len(self.source_files)} files: {matched} matched games, {unmatched_files} unmatched files in {unmatched_groups} folders")
     
-    def extract_game_id(self, path):
-        """Extract and normalize game ID from path with intelligent hyphen insertion"""
-        # First try exact matches with existing database
+    def fuzzy_match_game_id(self, potential_id):
+        """
+        Fuzzy match a potential game ID against the database.
+        Tries multiple hyphen insertion patterns and variations.
+        """
+        if not potential_id:
+            return None
+
+        potential_id = potential_id.upper().strip()
+
+        # Direct match first
+        if potential_id in self.redump_db:
+            return potential_id
+
+        # Try without hyphens - compare stripped versions
+        stripped_input = potential_id.replace('-', '').replace('_', '')
+
+        for db_id in self.redump_db.keys():
+            stripped_db = db_id.replace('-', '').replace('_', '')
+            if stripped_input == stripped_db:
+                return db_id
+
+        # Generate possible hyphen variations
+        variations = self.generate_hyphen_variations(potential_id)
+
+        for variation in variations:
+            if variation in self.redump_db:
+                return variation
+
+        return None
+
+    def generate_hyphen_variations(self, game_id):
+        """Generate possible hyphen insertion variations for a game ID"""
+        variations = set()
+        clean_id = game_id.replace('-', '').replace('_', '')
+
+        # Common Dreamcast game ID patterns:
+        # T-1201N (1 letter, 4 digits, 1 letter)
+        # HDR-0041 (3 letters, 4 digits)
+        # MK-51190-50 (2 letters, 5 digits, 2 digits)
+        # T-36803-N (1 letter, 5 digits, 1 letter)
+        # 610-7390 (3 digits, 4 digits)
+
         patterns = [
-            r'([A-Z]{1,3}-\d{4,5}(?:-\d{2})?)',  # T-1201N, HDR-0178, MK-51190-50
-            r'(\d{3}-\d{4}(?:-\d{2})?)',          # 610-7390
-        ]
-        
-        for pattern in patterns:
-            match = re.search(pattern, path, re.IGNORECASE)
-            if match:
-                potential_id = match.group(1).upper()
-                if potential_id in self.redump_db:
-                    return potential_id
-        
-        # Try patterns without hyphens and intelligently add them
-        no_hyphen_patterns = [
-            # Pattern: T1201N, HDR0178, MK511905, MK57020
-            (r'([A-Z]{1,3})(\d{4,5})([A-Z]?)', lambda m: f"{m.group(1)}-{m.group(2)}{m.group(3)}"),
-            # Pattern: T36803N -> T-36803-N (with region suffix)
-            (r'([A-Z])(\d{5})([A-Z])', lambda m: f"{m.group(1)}-{m.group(2)}-{m.group(3)}"),
+            # Pattern: T1201N -> T-1201N
+            (r'^([A-Z]{1})(\d{4})([A-Z]{1})$', ['{0}-{1}{2}']),
+            # Pattern: T12015 -> T-1201-5 or T-12015
+            (r'^([A-Z]{1})(\d{4})(\d{1})$', ['{0}-{1}-{2}', '{0}-{1}{2}']),
+            # Pattern: T36803N -> T-36803-N or T-36803N
+            (r'^([A-Z]{1})(\d{5})([A-Z]{1})$', ['{0}-{1}-{2}', '{0}-{1}{2}']),
+            # Pattern: HDR0041 -> HDR-0041
+            (r'^([A-Z]{2,3})(\d{4})$', ['{0}-{1}']),
+            # Pattern: HDR00415 -> HDR-0041-5
+            (r'^([A-Z]{2,3})(\d{4})(\d{1,2})$', ['{0}-{1}-{2}', '{0}-{1}{2}']),
+            # Pattern: MK511905 -> MK-51190-5, MK-51190-50, MK-5119-05, etc.
+            (r'^([A-Z]{2})(\d{5})(\d{1})$', ['{0}-{1}-{2}', '{0}-{1}{2}']),
+            (r'^([A-Z]{2})(\d{5})(\d{2})$', ['{0}-{1}-{2}', '{0}-{1}{2}']),
+            (r'^([A-Z]{2})(\d{4})(\d{2})$', ['{0}-{1}-{2}', '{0}-{1}{2}']),
             # Pattern: 6107390 -> 610-7390
-            (r'(\d{3})(\d{4})', lambda m: f"{m.group(1)}-{m.group(2)}"),
-            # Pattern: MK511905 -> MK-51190-50 (special case for double suffix)
-            (r'([A-Z]{2})(\d{5})(\d{2})', lambda m: f"{m.group(1)}-{m.group(2)}-{m.group(3)}"),
+            (r'^(\d{3})(\d{4})$', ['{0}-{1}']),
+            # Pattern: T11001N -> T-11001-N or T-11001N
+            (r'^([A-Z]{1})(\d{5})([A-Z]{1})$', ['{0}-{1}-{2}', '{0}-{1}{2}']),
+            # Pattern: T13004N -> T-13004-N or T-13004N
+            (r'^([A-Z]{1})(\d{5})([A-Z]{1})$', ['{0}-{1}-{2}', '{0}-{1}{2}']),
+            # Pattern: longer codes like T15128N -> T-15128-N
+            (r'^([A-Z]{1,2})(\d{5,6})([A-Z]?)$', ['{0}-{1}-{2}', '{0}-{1}{2}']),
+            # Pattern: IND16963 -> IND-16963
+            (r'^([A-Z]{3})(\d{5})$', ['{0}-{1}']),
+            # Very flexible catchall: letters-digits-optional letters/digits
+            (r'^([A-Z]+)(\d+)([A-Z]*)$', ['{0}-{1}{2}', '{0}-{1}-{2}']),
         ]
-        
+
+        for pattern_regex, format_strings in patterns:
+            match = re.match(pattern_regex, clean_id)
+            if match:
+                groups = match.groups()
+                for fmt in format_strings:
+                    try:
+                        variation = fmt.format(*groups)
+                        # Remove trailing hyphens
+                        variation = variation.rstrip('-')
+                        if variation:
+                            variations.add(variation)
+                    except:
+                        pass
+
+        return variations
+
+    def extract_game_id(self, path):
+        """Extract and normalize game ID from path with intelligent fuzzy matching"""
+        # Extract potential game ID patterns from path
         path_upper = path.upper()
-        
-        for pattern, formatter in no_hyphen_patterns:
-            matches = re.finditer(pattern, path_upper)
-            for match in matches:
-                # Try the formatted version
-                formatted_id = formatter(match)
-                if formatted_id in self.redump_db:
-                    return formatted_id
-                
-                # Try variations for region codes
-                base_id = match.group(1) + '-' + match.group(2)
-                if base_id in self.redump_db:
-                    return base_id
-                
-                # Try with different suffix formats if there's a third group
-                if match.lastindex >= 3 and match.group(3):
-                    # Try without the suffix
-                    no_suffix = f"{match.group(1)}-{match.group(2)}"
-                    if no_suffix in self.redump_db:
-                        return no_suffix
-                    
-                    # Try with suffix as separate part
-                    with_suffix = f"{match.group(1)}-{match.group(2)}-{match.group(3)}"
-                    if with_suffix in self.redump_db:
-                        return with_suffix
-        
+
+        # Try to find game ID patterns in the path
+        potential_patterns = [
+            r'([A-Z]{1,3}-\d{4,6}(?:-[A-Z0-9]{1,2})?)',  # With hyphens: T-1201N, HDR-0178
+            r'([A-Z]{1,3}\d{4,7}[A-Z]?)',                 # Without hyphens: T1201N, HDR0041
+            r'(\d{3}-\d{4})',                              # Numeric: 610-7390
+            r'(\d{7})',                                    # Numeric no hyphen: 6107390
+            r'(GID\d{3})',                                 # GID format: GID028
+            r'([A-Z]{3,10})',                             # Word-like: CLASCUBE, VMUGAMES
+        ]
+
+        candidates = []
+        for pattern in potential_patterns:
+            matches = re.findall(pattern, path_upper)
+            candidates.extend(matches)
+
+        # Try to fuzzy match each candidate
+        for candidate in candidates:
+            matched_id = self.fuzzy_match_game_id(candidate)
+            if matched_id:
+                return matched_id
+
+        # If no fuzzy match, try extracting from folder/file name directly
+        # Extract the last folder name or filename without extension
+        parts = path.replace('\\', '/').split('/')
+        for part in reversed(parts):
+            if part:
+                # Clean the part
+                clean_part = part.split('.')[0].strip()
+                matched_id = self.fuzzy_match_game_id(clean_part)
+                if matched_id:
+                    return matched_id
+
         return 'UNKNOWN'
     
     def scan_dest_files(self):
