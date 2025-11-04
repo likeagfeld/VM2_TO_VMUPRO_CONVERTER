@@ -1,0 +1,1831 @@
+|PAL|Aqua GT|GID007|
+|PAL|Buggy Heat|GID012|
+|PAL|Daytona USA 2001|GID032|
+|PAL|Evil Dead - Hail to the King|GID048|
+|PAL|Evil Twin - Cyprien's Chronicles|GID049|
+|PAL|F1 Racing Championship|GID052|
+|PAL|F1 World Grand Prix|GID053|
+|PAL|F1 World Grand Prix II|GID054|
+|PAL|Fighting Vipers 2|GID058|
+|PAL|GK-Giant Killers|GID063|
+|PAL|Grand Theft Auto 2|GID064|
+|PAL|Headhunter|GID067|
+|PAL|Jet Set Radio|GID075|
+|PAL|Moho|GID094|
+|PAL|Monaco Grand Prix Racing Simulation 2|GID096|
+|PAL|Pro Pinball - Trilogy|GID123|
+|PAL|Rez|GID137|
+|PAL|Sega Extreme Sports|GID144|
+|PAL|Sega Worldwide Soccer 2000|GID148|
+|PAL|Shenmue II|GID151|
+|PAL|Soul Fighter (EU)|GID162|
+|PAL|Spirit of Speed 1937|GID169|
+|PAL|Stunt GP|GID176|
+|PAL|Tokyo Highway Challenge|GID192|
+|PAL|Tokyo Highway Challenge 2|GID193|
+|PAL|Tony Hawk's Skateboarding|GID202|
+|PAL|Toy Racer|GID204|
+|PAL|UEFA Dream Soccer|GID207|
+|PAL|UEFA Striker|GID208|
+|PAL|Virtua Athlete 2K|GID214|
+|PAL|Virtua Tennis 2|GID217|
+|PAL|Who Wants to Be a Millionaire|GID221|
+|PAL|Worms Armageddon (EU)|GID227|
+|PAL|90 Minutes - Sega Championship Football|GID001|
+|USA|18 Wheeler - American Pro Trucker|GID000|
+|USA|CRI (AeroWings | Surf Rocket Racers)|GID002|
+|USA|AeroWings 2-Airstrike|GID003|
+|USA|Airforce Delta|GID004|
+|USA|Alien Front Online|GID005|
+|USA|Alone in the Dark - The New Nightmare|GID006|
+|USA|Armada|GID008|
+|USA|BANG! - Gunship Elite|GID009|
+|USA|Blue Stinger|GID010|
+|USA|Bomberman Online|GID011|
+|USA|Bust-A-Move 4|GID013|
+|USA|Buzz Lightyear of Star Command|GID014|
+|USA|Caesars Palace 2000 - Millennium Gold Edition|GID015|
+|USA|Cannon Spike|GID016|
+|USA|Capcom vs. SNK|GID017|
+|USA|Carrier|GID018|
+|USA|Centipede|GID019|
+|USA|Championship Surfer|GID020|
+|USA|Charge 'n Blast|GID021|
+|USA|Chicken Run|GID022|
+|USA|ChuChu Rocket!|GID023|
+|USA|Coaster Works|GID024|
+|USA|Confidential Mission|GID025|
+|USA|Conflict Zone - Modern War Strategy|GID026|
+|USA|Crazy Taxi|GID027|
+|USA|Crazy Taxi 2|GID028|
+|USA|D2|GID029|
+|USA|Dave Mirra Freestyle BMX|GID030|
+|USA|Daytona USA|GID031|
+|USA|Dead or Alive 2|GID033|
+|USA|Deep Fighter|GID034|
+|USA|Demolition Racer - No Exit|GID035|
+|USA|Dino Crisis|GID036|
+|USA|Dinosaur|GID037|
+|USA|Donald Duck - Goin' Quackers|GID038|
+|USA|Draconus - Cult of the Wyrm|GID039|
+|USA|DragonRiders - Chronicles of Pern|GID040|
+|USA|Ducati World - Racing Challenge|GID041|
+|USA|Dynamite Cop!|GID042|
+|USA|Ecco the Dolphin - Defender of the Future|GID043|
+|USA|ECW|GID044|
+|USA|Elemental Gimmick Gear|GID045|
+|USA|ESPN International Track & Field|GID046|
+|USA|ESPN NBA 2night|GID047|
+|USA|Evolution - The World of Sacred Device|GID050|
+|USA|Expendable|GID051|
+|USA|F355 Challenge - Passione Rossa|GID055|
+|USA|Fatal Fury - Mark of the Wolves|GID056|
+|USA|Fighting Force 2|GID057|
+|USA|Floigan Bros. - Episode 1|GID059|
+|USA|Frogger 2 - Swampy's Revenge|GID060|
+|USA|Gauntlet Legends|GID061|
+|USA|GigaWing 2|GID062|
+|USA|Grandia II|GID065|
+|USA|Gundam - Side Story 0079 - Rise from the Ashes|GID066|
+|USA|Heavy Metal - Geomatrix|GID068|
+|USA|Hidden & Dangerous|GID069|
+|USA|Hoyle Casino|GID070|
+|USA|Illbleed|GID071|
+|USA|Iron Aces|GID072|
+|USA|Jeremy McGrath Supercross 2000|GID073|
+|USA|Jet Grind Radio|GID074|
+|USA|Jojo's Bizarre Adventure|GID076|
+|USA|Kao the Kangaroo|GID077|
+|USA|King of Fighters Evolution, The|GID078|
+|USA|King of Fighters, The - Dream Match 1999|GID079|
+|USA|Kiss Psycho Circus - The Nightmare Child|GID080|
+|USA|Last Blade 2, The Heart of the Samurai|GID081|
+|USA|Legacy of Kain - Soul Reaver|GID082|
+|USA|Looney Tunes Space Race|GID083|
+|USA|Magforce Racing|GID084|
+|USA|Maken X|GID085|
+|USA|Mars Matrix|GID086|
+|USA|Marvel vs. Capcom - Clash of Super Heroes|GID087|
+|USA|Marvel vs. Capcom 2|GID088|
+|USA|Mat Hoffman's Pro BMX|GID089|
+|USA|Max Steel - Covert Missions|GID090|
+|USA|Maximum Pool|GID091|
+|USA|MDK 2|GID092|
+|USA|Metropolis Street Racer|GID093|
+|USA|Monaco Grand Prix|GID095|
+|USA|Mortal Kombat Gold|GID097|
+|USA|Mr Driller|GID098|
+|USA|Ms. Pac-Man - Maze Madness|GID099|
+|USA|MTV Sports - Skateboarding Featuring Andy Macdonald|GID100|
+|USA|Namco Museum|GID101|
+|USA|NBA 2K|GID102|
+|USA|NBA 2K1|GID103|
+|USA|NBA 2K2|GID104|
+|USA|NBA Hoopz|GID105|
+|USA|NCAA College Football 2K2 - Road to the Rose Bowl|GID106|
+|USA|Next Tetris, The - On-line Edition|GID107|
+|USA|NFL 2K|GID108|
+|USA|NFL 2K2|GID109|
+|USA|NFL QB Club 2001|GID110|
+|USA|NFL Quarterback Club 2000|GID111|
+|USA|NHL 2K2|GID112|
+|USA|Nightmare Creatures II|GID113|
+|USA|Omikron - The Nomad Soul|GID114|
+|USA|Ooga Booga|GID115|
+|USA|Outtrigger|GID116|
+|USA|PenPen Trilcelon|GID117|
+|USA|Phantasy Star Online|GID118|
+|USA|Plasma Sword - Nightmare of Bilstein|GID119|
+|USA|POD - Speedzone|GID120|
+|USA|Power Stone|GID121|
+|USA|Power Stone 2|GID122|
+|USA|Project Justice|GID124|
+|USA|Psychic Force 2012|GID125|
+|USA|Quake III Arena|GID126|
+|USA|Railroad Tycoon II - Gold Edition|GID127|
+|USA|Rayman 2 - The Great Escape|GID128|
+|USA|Razor Freestyle Scooter|GID129|
+|USA|Ready 2 Rumble Boxing Round 2|GID130|
+|USA|Red Dog - Superior Firepower|GID131|
+|USA|Reel Fishing - Wild|GID132|
+|USA|Resident Evil - Code Veronica|GID133|
+|USA|Resident Evil 2|GID134|
+|USA|Resident Evil 3 - Nemesis|GID135|
+|USA|Re-Volt|GID136|
+|USA|Rippin' Riders Snowboarding|GID138|
+|USA|Samba De Amigo|GID139|
+|USA|San Francisco Rush 2049|GID140|
+|USA|Seaman|GID141|
+|USA|Sega Bass Fishing|GID142|
+|USA|Sega Bass Fishing 2|GID143|
+|USA|Sega GT|GID145|
+|USA|Sega Marine Fishing|GID146|
+|USA|Sega Smashpack Volume 1|GID147|
+|USA|Shadow Man|GID149|
+|USA|Shenmue|GID150|
+|USA|Shenmue Passport|GID152|
+|USA|Silent Scope|GID153|
+|USA|Silver|GID154|
+|USA|Skies of Arcadia|GID155|
+|USA|Soldier of Fortune|GID156|
+|USA|Sonic Adventure|GID157|
+|USA|Sonic Adventure 2|GID158|
+|USA|Sonic Shuffle|GID159|
+|USA|Soul Calibur|GID160|
+|USA|Soul Fighter (US)|GID161|
+|USA|South Park Rally|GID163|
+|USA|Space Channel 5|GID164|
+|USA|Spawn - In the Demon's Hand|GID165|
+|USA|Spec Ops II - Omega Squad|GID166|
+|USA|Speed Devils|GID167|
+|USA|Spider-Man|GID168|
+|USA|Sports Jam|GID170|
+|USA|Star Wars - Demolition|GID171|
+|USA|Street Fighter Alpha 3|GID172|
+|USA|Street Fighter III - 3rd Strike|GID173|
+|USA|Street Fighter III - Double Impact|GID174|
+|USA|Striker Pro 2000|GID175|
+|USA|Stupid Invaders|GID177|
+|USA|Super Magnetic Neo|GID178|
+|USA|Super Runabout - San Francisco Edition|GID179|
+|USA|Suzuki ALSTARE Extreme Racing|GID180|
+|USA|Sword of the Berserk - Guts' Rage|GID181|
+|USA|Sydney 2000|GID182|
+|USA|Tech Romancer|GID183|
+|USA|Tee Off|GID184|
+|USA|Tennis 2K2|GID185|
+|USA|Test Drive 6|GID186|
+|USA|Test Drive Le Mans|GID187|
+|USA|Test Drive V-Rally|GID188|
+|USA|TimeStalkers|GID189|
+|USA|TITUS (Exhibition of Speed - Roadsters)|GID190|
+|USA|TNN Motorsports Hardcore Heat|GID191|
+|USA|Tokyo Xtreme Racer|GID194|
+|USA|Tokyo Xtreme Racer 2|GID195|
+|USA|Tom Clancy's Rainbow Six|GID196|
+|USA|Tom Clancy's Rainbow Six - Rogue Spear|GID197|
+|USA|Tomb Raider - The Last Revelation|GID198|
+|USA|Tomb Raider Chronicles|GID199|
+|USA|Tony Hawk's Pro Skater|GID200|
+|USA|Tony Hawk's Pro Skater 2|GID201|
+|USA|Toy Commander|GID203|
+|USA|Toy Story 2 - Buzz Lightyear to the Rescue!|GID205|
+|USA|TrickStyle|GID206|
+|USA|Unreal Tournament|GID209|
+|USA|Urban Chaos|GID210|
+|USA|Vanishing Point|GID211|
+|USA|Vigilante 8 - 2nd Offense|GID212|
+|USA|Virtua Athlete 2000|GID213|
+|USA|Virtua Striker 2|GID215|
+|USA|Virtua Tennis|GID216|
+|USA|Wacky Races|GID218|
+|USA|Walt Disney World Quest - Magical Racing Tour|GID219|
+|USA|Wetrix+|GID220|
+|USA|Who Wants to Beat Up a Millionaire|GID222|
+|USA|Wild Metal|GID223|
+|USA|World Series Baseball 2K1|GID224|
+|USA|World Series Baseball 2K2|GID225|
+|USA|Worms Armageddon (US)|GID226|
+|USA|Worms World Party|GID228|
+|USA|WWF Attitude|GID229|
+|USA|WWF Royal Rumble|GID230|
+|USA|Xtreme Sports|GID231|
+|JAP|Advanced Daisenryaku - Sturm uber Europa - Der Deutsche Blitzkrieg|GID234|
+|JAP|Advanced Daisenryaku 2001|GID235|
+|JAP|Aero Dancing - Featuring Blue Impulse|GID236|
+|JAP|Aero Dancing - Todoroki Taichou no Himitsu Disc|GID237|
+|JAP|Aero Dancing F|GID238|
+|JAP|Aero Dancing i|GID239|
+|JAP|Aero Dancing i - Jikai Saku Made Matemasen|GID240|
+|JAP|Air|GID241|
+|JAP|Akihabara Dennou Gumi Pata Pies!|GID242|
+|JAP|Angel Present|GID243|
+|JAP|Animastar|GID244|
+|JAP|Atsumare! Guru Guru Onsen|GID245|
+|JAP|Bakumatsu Roman Dai ni Maku - Gekka no Kenshi - Final Edition|GID246|
+|JAP|Bakuretsu Muteki Bangaioh|GID247|
+|JAP|Baldr Force EXE|GID248|
+|JAP|Bass Rush Dream - Ecogear PowerWorm Championship|GID249|
+|JAP|Battle Beaster|GID250|
+|JAP|Berserk - Sennen Teikoku no Taka-hen - Soushitsu Hana no Shou|GID251|
+|JAP|Bikkuriman 2000 - Viva!Festiva!|GID252|
+|JAP|Biohazard - Code Veronica|GID253|
+|JAP|Biohazard 2 Value Plus|GID254|
+|JAP|Biohazard 3 - Last Escape|GID255|
+|JAP|Black Matrix A-D|GID256|
+|JAP|Boku Doraemon|GID257|
+|JAP|Boku to Bokura no Natsu|GID258|
+|JAP|Border Down|GID259|
+|JAP|Bounty Hunter Sara - Holy Mountain no Teiou|GID260|
+|JAP|Canary - Kono Omoi o Uta ni Nosete|GID261|
+|JAP|Candy Stripe - Minarai Tenshi|GID262|
+|JAP|Canvas - Sepia-iro no Motif|GID263|
+|JAP|Capcom vs. SNK - Millennium Fight 2000 Pro|GID264|
+|JAP|Capcom vs. SNK 2 - Millionaire Fighting 2001|GID265|
+|JAP|Card of Destiny - Hikari to Yami no Tougou-sha Chaos Field|GID266|
+|JAP|Chaos Field|GID267|
+|JAP|Cho - Hatsumei Boy Kanipan - Bousou Robot no Nazo!|GID268|
+|JAP|Choukousenki Kikaioh|GID269|
+|JAP|Cleopatra Fortune|GID270|
+|JAP|Climax Landers|GID271|
+|JAP|Close To Inori no Oka|GID272|
+|JAP|Comic Party|GID273|
+|JAP|Cool Boarders Burrrn!|GID274|
+|JAP|Cool Cool Toon|GID275|
+|JAP|CR Hissatsu Shigotonin - Pachitte Chonmage|GID276|
+|JAP|D2-D no Shokutaku 2|GID277|
+|JAP|Dabitsuku - Derby-ba o Tsukurou!|GID278|
+|JAP|Dabitsuku 2|GID279|
+|JAP|Dance Dance Revolution - Club Version - Dreamcast Edition|GID280|
+|JAP|Dance Dance Revolution 2nd Mix - Dreamcast Edition|GID281|
+|JAP|De La Jet Set Radio|GID282|
+|JAP|Denpa Shounen-teki Kenshou Seikatsu Soft - Nasubi no Heya|GID283|
+|JAP|Densha De Go! 2 - Kousoku-hen 3000 Bandai|GID284|
+|JAP|Di Gi Charat Fantasy|GID285|
+|JAP|Eldorado Gate Vol. 1~7|GID286|
+|JAP|Elysion - Eien no Sanctuary|GID287|
+|JAP|Erde - Nezu no Kinoshitade|GID288|
+|JAP|Es|GID289|
+|JAP|Espion-age-nts - Industrial Agents for Active Espionage|GID290|
+|JAP|Exodus Guilty Neos|GID291|
+|JAP|First Kiss Monogatari|GID292|
+|JAP|First Kiss Monogatari II|GID293|
+|JAP|Fish Eyes - Wild|GID294|
+|JAP|Frame Gride v4.000|GID295|
+|JAP|Gaia Master - Kessen! Seikiou Densetsu|GID296|
+|JAP|Gakkyuu wo Yamazaki - Yamazaki Oukoku Dai Fun So!|GID297|
+|JAP|Ganbare Nippon! - Olympics 2000|GID298|
+|JAP|Garou - Mark of the Wolves|GID299|
+|JAP|Get Bass - Sega Bass Fishing|GID300|
+|JAP|Get!! Colonies|GID301|
+|JAP|Giant Gram - All Japan Pro Wrestling 2 in Nippon Budoukan|GID302|
+|JAP|Giant Gram 2000 - All Japan Pro Wrestling 3 Eikou no Yuusha-tachi|GID303|
+|JAP|Godzilla Generations Maximum Impact|GID304|
+|JAP|Golem no Maigo|GID305|
+|JAP|Golf Shiyouyo - Course Data Shuu Adventure-Hen|GID306|
+|JAP|Golf Shiyouyo 2 - Aratanaru Chousen|GID307|
+|JAP|Grandia II|GID308|
+|JAP|Guilty Gear X|GID309|
+|JAP|Gundam Battle Online|GID310|
+|JAP|Gunspike|GID311|
+|JAP|Guru Guru Onsen 3|GID312|
+|JAP|Hanagumi Taisen Columns 2|GID313|
+|JAP|Happy Lesson|GID314|
+|JAP|Heisei Mahjong Sou|GID315|
+|JAP|Hello Kitty - Lovely Fruit Park|GID316|
+|JAP|Hello Kitty - Magical Block|GID317|
+|JAP|Hello Kitty - Waku Waku Cookies|GID318|
+|JAP|Hello Kitty no Garden Panic|GID319|
+|JAP|Himitsu - Yui ga Ita Natsu|GID320|
+|JAP|Historical Mystery Adventure Troia 1186 B.C.|GID321|
+|JAP|Hundred Swords|GID322|
+|JAP|Ikaruga|GID323|
+|JAP|Illbleed|GID324|
+|JAP|Imperial no Taka - Fighter of Zero|GID325|
+|JAP|Incoming - Jinrui Saishuu Kessen|GID326|
+|JAP|Interlude|GID327|
+|JAP|J.League Spectacle Soccer|GID328|
+|JAP|Jet Set Radio|GID329|
+|JAP|Jinsei Game for Dreamcast|GID330|
+|JAP|Kaen Seibo - The Virgin on Megiddo|GID331|
+|JAP|Kanon|GID332|
+|JAP|Karous|GID333|
+|JAP|Kidou Senkan Nadesico - Nadesico the Mission|GID334|
+|JAP|Kidou Senshi Gundam - Gihren no Yabou - Zeon no Keifu|GID335|
+|JAP|Kidou Senshi Gundam - Renpou vs. Zeon & DX|GID336|
+|JAP|King of Fighters 2000, The|GID337|
+|JAP|King of Fighters 2001, The|GID338|
+|JAP|King of Fighters 2002, The|GID339|
+|JAP|King of Fighters '99 Evolution, The|GID340|
+|JAP|Kita He - Photo Memories|GID341|
+|JAP|Kita He- White Illumination|GID342|
+|JAP|Kitahei Gold|GID343|
+|JAP|Konohana - True Report|GID344|
+|JAP|Konohana 2 - Todokanai Requiem|GID345|
+|JAP|Langrisser Millennium|GID346|
+|JAP|Love Hina - Smile Again|GID347|
+|JAP|Love Hina - Totsuzen no Engeji Happening|GID348|
+|JAP|Maboroshi Tsukiyo|GID349|
+|JAP|Macross M3|GID350|
+|JAP|Magic - The Gathering|GID351|
+|JAP|Mahjong Taikai II Special|GID352|
+|JAP|Marionette Company 2|GID353|
+|JAP|Marionette Handler|GID354|
+|JAP|Marionette Handler 2|GID355|
+|JAP|Memories Off Complete|GID356|
+|JAP|Mercurius Pretty - End of the Century|GID357|
+|JAP|Missing Parts - The Tantei Stories (1~3)|GID358|
+|JAP|Moero! Justice Gakuen|GID359|
+|JAP|Morita no Saikyou Reversi|GID360|
+|JAP|Morita no Saikyou Shougi|GID361|
+|JAP|Motto Pro Yakyuu Team o Tsukurou!|GID362|
+|JAP|My Trackman|GID363|
+|JAP|Nakoruru - Ano Hito Kara no Okurimono|GID364|
+|JAP|Nanatsu no Hikan - Senritsu no Bishou|GID365|
+|JAP|Napple Tale - Arsia in Daydream|GID366|
+|JAP|Neo Golden Logres|GID367|
+|JAP|Neppachi 1~3|GID368|
+|JAP|Neppachi 4~6|GID369|
+|JAP|Net de Tennis|GID370|
+|JAP|Never 7 - The End of Infinity|GID371|
+|JAP|NFL 2K1|GID372|
+|JAP|Nippon Pro Mahjong Renmei Kounin - Tetsuman Menkyokaiden|GID373|
+|JAP|Nobunaga no Yabou - Reppuuden|GID374|
+|JAP|Nobunaga no Yabou - Shouseiroku with Power-Up Kit|GID375|
+|JAP|Ohgami Ichirou Funtouki - Sakura Taisen Kayou Show Beni Tokage Yori|GID376|
+|JAP|Oukahoushin - Oukasakishitoki|GID377|
+|JAP|Pachinko no Dendou - CR Nanasy|GID378|
+|JAP|Pandora no Yume|GID379|
+|JAP|Panzer Front|GID380|
+|JAP|Pia Carrot He Youkoso!! 2.5|GID381|
+|JAP|Pia Carrot He Youkoso!! 3|GID382|
+|JAP|Power Jet Racing 2001|GID383|
+|JAP|Power Smash|GID384|
+|JAP|Power Smash 2|GID385|
+|JAP|Prism Heart|GID386|
+|JAP|Pro Yakyuu Team de Asobou Net!|GID387|
+|JAP|Pro Yakyuu Team de Asobou!|GID388|
+|JAP|Pro Yakyuu Team o Tsukurou!|GID389|
+|JAP|Puyo Puyo 4|GID390|
+|JAP|Puyo Puyo Fever|GID391|
+|JAP|Puzzle Bobble 4|GID392|
+|JAP|Quiz Aa Megami-Sama - Tatakau Tsubasa to Tomoni|GID393|
+|JAP|Radirgy|GID394|
+|JAP|Rainbow Cotton|GID395|
+|JAP|Redline Racer|GID396|
+|JAP|Ren'ai Chu! - Happy Perfect|GID397|
+|JAP|Revive... - Sosei|GID398|
+|JAP|Roommate Novel - Yuka Sato|GID399|
+|JAP|Rune Caster|GID400|
+|JAP|Rune Jade|GID401|
+|JAP|Sakura Taisen|GID402|
+|JAP|Sakura Taisen 2|GID403|
+|JAP|Sakura Taisen 3 - Paris wa Moete Iru Ka|GID404|
+|JAP|Sakura Taisen 4- Koi Seyo Otome|GID405|
+|JAP|Sakura Taisen Online|GID406|
+|JAP|Samba De Amigo|GID407|
+|JAP|Sangokushi VI|GID408|
+|JAP|Sangokushi VI with Power-Up Kit|GID409|
+|JAP|Sega Tetris|GID410|
+|JAP|Sengoku Turb|GID411|
+|JAP|Sengoku Turb - Fanfan I Love me Dunce-doublentendre|GID412|
+|JAP|Sentimental Graffiti - Yakusoku|GID413|
+|JAP|Sentimental Graffiti 2|GID414|
+|JAP|SGGG-Segagaga|GID415|
+|JAP|Shanghai Dynasty|GID416|
+|JAP|Shenmue - Ichishou Yokosuka|GID417|
+|JAP|Shenmue - Ichishou Yokosuka Passport|GID418|
+|JAP|Shin Nihon Pro Wrestling - Toukon Retsuden 4|GID419|
+|JAP|Shinri Game, The - The Psychological Game|GID420|
+|JAP|Shinseiki Evangelion - Ayanami Ikusei Keikaku|GID421|
+|JAP|Shinseiki Evangelion - Typing E Keikaku|GID422|
+|JAP|Shinseiki Evangelion - Typing Hokan Keikaku|GID423|
+|JAP|Shirotsumesouwa - Episode of the Clovers|GID424|
+|JAP|Shutokou Battle|GID425|
+|JAP|Shutokou Battle 2|GID426|
+|JAP|Simple2000 Series DC Vol. 01 - Bittersweet Fools - The Ren'ai Adventure|GID427|
+|JAP|Simple2000 Series DC Vol. 02 - Natsuiro Celebration - The Ren'ai Simulation|GID428|
+|JAP|Sister Princess - Premium Edition|GID429|
+|JAP|Snow|GID430|
+|JAP|Sorcerian - Shichisei Mahou no Shito|GID431|
+|JAP|Soukou no Kihei - Space Griffon|GID432|
+|JAP|Space Channel 5 Part 2|GID433|
+|JAP|Star Gladiator 2 - Nightmare of Bilstein|GID434|
+|JAP|Street Fighter Zero 3 - Saikyo-ryu Dojo|GID435|
+|JAP|Sunrise Eiyuutan|GID436|
+|JAP|Super Euro Soccer 2000|GID437|
+|JAP|Super Magnetic NiuNiu|GID438|
+|JAP|Super Puzzle Fighter IIX for Matching Service|GID439|
+|JAP|Super Robot Taisen Alpha for Dreamcast|GID440|
+|JAP|Super Runabout|GID441|
+|JAP|Super Street Fighter IIX for Matching Service - Grand Master Challenge|GID442|
+|JAP|Taisen Net Gimmick - Capcom & Psikyo All Stars|GID443|
+|JAP|Tantei Shinshi Dash!|GID444|
+|JAP|Tokusatsu Bouken Katsugeki - Super Hero Retsuden|GID445|
+|JAP|Tokyo Bus Guide|GID446|
+|JAP|Treasure Strike|GID447|
+|JAP|Triggerheart Exelica|GID448|
+|JAP|Tsuki wa Higashi ni Hi wa Nishi ni - Operation Sanctuary|GID449|
+|JAP|Tsuushin Taisen Logic Battle Daisessen|GID450|
+|JAP|Twinkle Star Sprites|GID451|
+|JAP|Typing of the Date|GID452|
+|JAP|Ultimate Fighting Championship|GID453|
+|JAP|Under Defeat|GID454|
+|JAP|UnderCover AD 2025 Kei|GID455|
+|JAP|Vampire Chronicle for Matching Service|GID456|
+|JAP|Vermilion Desert|GID457|
+|JAP|Virtua Cop 2|GID458|
+|JAP|Weakness Hero Torauman DC|GID459|
+|JAP|Web Mystery - Yochimu o Miru Neko|GID460|
+|JAP|Wind - A Breath of Heart|GID461|
+|JAP|Winning Post 4 - Program 2000|GID462|
+|JAP|World Series Baseball 2K1|GID463|
+|JAP|Yukyu Gensokyoku 3 - Perpetual Blue|GID464|
+|JAP|Zero Gunner 2|GID465|
+|JAP|Zusar Vasar|GID466|
+|PAL|102 Dalmatians - Puppies to the Rescue|T36813D05|
+|PAL|102 Dalmatians - Puppies to the Rescue|T36813D50|
+|PAL|18 Wheeler - American Pro Trucker|MK5106450|
+|PAL|4 Wheel Thunder|T9706D50|
+|PAL|90 Minutes - Sega Championship Football|MK5119050|
+|PAL|Adventures of Buzz Lightyear, The|T13005D09|
+|PAL|AeroWings 2 - Airstrike|T40209D50|
+|PAL|AeroWings|T40202D50|
+|PAL|Alone in the Dark - The New Nightmare|T15117N|
+|PAL|Aqua GT|T40509D50|
+|PAL|Army Men - Sarge's Heroes|T9708D50|
+|PAL|Bangai-O|T7011D50|
+|PAL|Blue Stinger|T13001D09|
+|PAL|Blue Stinger|T13001D18|
+|PAL|Blue Stinger|T13001D05|
+|PAL|Buggy Heat|MK5104050|
+|PAL|Bust-A-Move 4|T8109D50|WINCE|
+|PAL|Buzz Lightyear of Star Command|T13005D05|
+|PAL|Caesars Palace 2000 - Millennium Gold Edition|12502D50|WINCE|
+|PAL|Cannon Spike|T46601D05|
+|PAL|Capcom vs. SNK|T7017D50|
+|PAL|Captain Buzz Lightyear - Star Command|T13005D18|
+|PAL|Carrier|T44901D50|
+|PAL|Championship Surfer|T41402D50|WINCE|
+|PAL|Championship Surfer|T41402D|WINCE|
+|PAL|Charge 'n Blast|T44902D50|
+|PAL|Chicken Run|T36814D05|
+|PAL|Chicken Run|T36814D87|
+|PAL|ChuChu Rocket!|MK5104950|
+|PAL|Coaster Works|T44903D50|
+|PAL|Confidential Mission|MK5116050|
+|PAL|Conflict Zone|T46604D|
+|PAL|Crazy Taxi 2|MK5113650|
+|PAL|Crazy Taxi|MK51035|
+|PAL|Dave Mirra Freestyle BMX|T8120D50|
+|PAL|Daytona USA 2001|MK5103750|
+|PAL|Dead or Alive 2|T8116D50|
+|PAL|Deadly Skies|T9501N50|
+|PAL|Deep Fighter|T17704D05|
+|PAL|Deep Fighter|T17704D09|
+|PAL|Deep Fighter|T17704D18|
+|PAL|Dino Crisis|T7019D05|
+|PAL|Dino Crisis|T7019D06|
+|PAL|Dino Crisis|T7019D09|
+|PAL|Dino Crisis|T7019D13|
+|PAL|Dino Crisis|T7019D18|
+|PAL|Dinosaur|T17718D50|
+|PAL|Donald Duck - Quack Attack|T17714D50|
+|PAL|Dragonriders - Chronicles of Pern|T17716D50|
+|PAL|Dragons Blood|T12503D50|
+|PAL|Ducati World|T8121D50|WINCE|
+|PAL|Dynamite Cop|MK5101350|
+|PAL|Ecco the Dolphin - Defender of the Future|MK5103350|
+|PAL|ECW Anarchy Rulz|T8119D50|
+|PAL|ECW Hardcore Revolution|T8111D50|
+|PAL|ECW Hardcore Revolution|T8111D58|
+|PAL|ESPN International Track & Field|T9504D|
+|PAL|European Super League|T7015D50|
+|PAL|Evil Dead - Hail to the King|T10005D05|
+|PAL|Evil Dead - Hail to the King|T10005D09|
+|PAL|Evil Twin - Cyprien's Chronicles|T46605D71|
+|PAL|Evil Twin - Cyprien's Chronicles|T46605D80|
+|PAL|Evolution - The World of Sacred Device|T17705D05|
+|PAL|Evolution 2 - Far Off Promise|T45005D50|
+|PAL|Exhibition of Speed|T22903D50|
+|PAL|F1 Racing Championship|17706D50|
+|PAL|F1 Racing Championship|T17706D50|
+|PAL|F1 World Grand Prix for Dreamcast|T3001D50|
+|PAL|F1 World Grand Prix II for Dreamcast|T3002M50|
+|PAL|F355 Challenge - Passione Rossa|T8118D50|
+|PAL|Fighting Force 2|36802D18|
+|PAL|Fighting Force 2|36802D80|
+|PAL|Fighting Vipers 2|MK5115450|
+|PAL|Floigan Bros. - Episode 1|MK51114|
+|PAL|Flintstones, The - Viva Rock Vegas|T45003D50|
+|PAL|Freestyle Scooter|T40214D50|
+|PAL|Fur Fighters|T8113D50|
+|PAL|Gauntlet Legends|T9707D50|
+|PAL|GigaWing|T7008D50|
+|PAL|Giant Killers|T45401D50|WINCE|
+|PAL|Grand Theft Auto 2|T40502D93|
+|PAL|Grand Theft Auto 2|T40502D09|
+|PAL|Grandia II|T17715D|
+|PAL|Grinch, The|T9503D|
+|PAL|Gunbird 2|T7018D50|
+|PAL|Headhunter|MK5104150|
+|PAL|Heavy Metal - Geomatrix|T46602D50|
+|PAL|Hidden & Dangerous|T40503D50|WINCE|
+|PAL|House of the Dead 2, The|MK5100250|
+|PAL|Hydro Thunder|T9702D50|
+|PAL|Incoming|T40701D50|
+|PAL|Iron Aces|T44904D50|
+|PAL|Jeremy McGrath Supercross 2000|T8114D50|
+|PAL|Jet Set Radio|MK5105850|
+|PAL|Jimmy White's 2 - Cueball|T7001D50|WINCE|
+|PAL|Jojo's Bizarre Adventure|T7007D50|
+|PAL|Kao the Kangaroo|T22902D50|
+|PAL|Kiss Psycho Circus - The Nightmare Child|T40506D50|WINCE|
+|PAL|Le Mans 24 Hours|T15111D50|
+|PAL|Legacy of Kain - Soul Reaver|T36802N|
+|PAL|Looney Tunes Space Race|T15108D|
+|PAL|Magforce Racing|T40207D50|
+|PAL|Maken X|MK5105050|
+|PAL|Marvel vs. Capcom - Clash of Super Heroes|T7002D50|
+|PAL|Marvel vs. Capcom 2 - New Age of Heroes|T7010D50|
+|PAL|MDK 2|T12501D50|
+|PAL|MDK 2|T12501D05|
+|PAL|Metropolis Street Racer|MK5102250|
+|PAL|Midway's Greatest Arcade Hits Volume 1|T9710D50|WINCE|
+|PAL|Millennium Soldier - Expendable|T15101D50|
+|PAL|Moho|T40508D50|
+|PAL|Monaco Grand Prix Racing Simulation 2|17701D|
+|PAL|Mortal Kombat Gold|T9701D|
+|PAL|Mr Driller|T7020D|
+|PAL|MTV Sports - Skateboarding Featuring Andy Macdonald|T10001D50|
+|PAL|NBA 2K2|MK51178|
+|PAL|NBA 2K|MK5100450|
+|PAL|NBA Hoopz|T9713D|
+|PAL|NBA Showtime - NBA on NBC|T9706D50|
+|PAL|Next Tetris, The|T17717D50|WINCE|
+|PAL|NFL Blitz 2000|T9703D50|
+|PAL|NFL Quarterback Club 2000|T8102D50|WINCE|
+|PAL|NHL 2K|MK5102550|
+|PAL|Nightmare Creatures II|T9502D50|WINCE|
+|PAL|Nomad Soul, The|T36805D09|
+|PAL|Nomad Soul, The|T36805D18|
+|PAL|Nomad Soul, The|T36805D61|
+|PAL|Outtrigger|MK5110250|
+|PAL|PenPen|T15103D50|
+|PAL|Phantasy Star Online Ver. 2|MK5119350|
+|PAL|Phantasy Star Online|MK5110050|
+|PAL|Planet Ring|MK5112550|
+|PAL|Plasma Sword - Nightmare of Bilstein|T7005D50|
+|PAL|POD 2 - Multiplayer Online|T17710D50|
+|PAL|Power Stone 2|T36812D50|
+|PAL|Power Stone|T36801D50|
+|PAL|Pro Pinball - Trilogy|T30701D50|
+|PAL|Project Justice - Rival Schools 2|T7022D50|
+|PAL|Psychic Force 2012|T8106D50|
+|PAL|Quake III Arena|MK5106150|
+|PAL|Qui Veut Gagner Des Millions|T36811D05|
+|PAL|Racing Simulation 2 - Monaco Grand Prix On-Line|T45006D50|
+|PAL|Railroad Tycoon II|T40505D50|WINCE|
+|PAL|Rayman 2 - The Great Escape|17707D|
+|PAL|Re-Volt|T8107D50|
+|PAL|Re-Volt (demo)|610000350|
+|PAL|Ready 2 Rumble Boxing Round 2|T9711D50|
+|PAL|Ready 2 Rumble Boxing|T9704D05|
+|PAL|Ready 2 Rumble Boxing|T9704D50|
+|PAL|Record of Lodoss War|T7012D05|
+|PAL|Record of Lodoss War|T7012D09|
+|PAL|Record of Lodoss War|T7012D18|
+|PAL|Red Dog - Superior Firepower|MK5102151|
+|PAL|Resident Evil - Code Veronica|T36806D05|
+|PAL|Resident Evil - Code Veronica|T36806D06|
+|PAL|Resident Evil - Code Veronica|T36806D09|
+|PAL|Resident Evil - Code Veronica|T36806D18|
+|PAL|Resident Evil - Code Veronica (demo)|834000750|
+|PAL|Resident Evil 2|T7004D50|WINCE|
+|PAL|Resident Evil 3 - Nemesis|T7021D05|
+|PAL|Resident Evil 3 - Nemesis|T7021D18|
+|PAL|Resident Evil 3 - Nemesis|T7021D72|
+|PAL|Rez|MK5119250|
+|PAL|Roadsters|T22901D50|
+|PAL|Samba De Amigo|MK5109250|
+|PAL|San Francisco Rush 2049|T9709D50|
+|PAL|San Francisco Rush 2049|9D080050|
+|PAL|Sega Bass Fishing|MK5100650|
+|PAL|Sega Extreme Sports|MK5108150|
+|PAL|Sega Extreme Sports Milka Version|MK003050|
+|PAL|Sega GT|MK5105350|
+|PAL|Sega Rally 2|MK5101950|WINCE|
+|PAL|Sega Worldwide Soccer 2000 - Euro Edition|MK5108350|
+|PAL|Sega Worldwide Soccer 2000|5103150|
+|PAL|Shadow Man|T8104D18|
+|PAL|Shadow Man|T8104D58|
+|PAL|Shenmue II|MK5118450|
+|PAL|Shenmue|MK5105950|
+|PAL|Silent Scope|T9505D|
+|PAL|Silver|T15109D|
+|PAL|Skies of Arcadia|MK51052|
+|PAL|Slave Zero|T15104D50|
+|PAL|SnoCross - Championship Racing|T17722D50|WINCE|
+|PAL|Snow Surfers|MK5101050|
+|PAL|Soldier of Fortune|T17726D50|
+|PAL|Sonic Adventure 2|MK5111750|
+|PAL|Sonic Adventure|MK5100050|
+|PAL|Sonic Shuffle|MK5106050|
+|PAL|Soul Calibur|T1401D50|
+|PAL|Soul Fighter|T41401D50|
+|PAL|South Park - Chef's Luv Shack|T8105D50|WINCE|
+|PAL|South Park Rally|T8112D50|
+|PAL|Space Channel 5|MK5105150|
+|PAL|Spawn - In the Demon's Hand|T36816D50|
+|PAL|Spec Ops II - Omega Squad|T45004D50|
+|PAL|Speed Devils - Online Racing|T17713D50|
+|PAL|Speed Devils|T17702D50|
+|PAL|Spider-Man|T13008N|
+|PAL|Spirit of Speed 1937|T8117D50|WINCE|
+|PAL|Star Wars - Demolition|T13010D05|
+|PAL|Star Wars - Episode I - Jedi Power Battles|T23002D|
+|PAL|Star Wars - Episode I - Racer|T23001D50|
+|PAL|StarLancer|T17723D05|WINCE|
+|PAL|Street Fighter Alpha 3|T7005D50|
+|PAL|Street Fighter III - 3rd Strike|T7013D50|
+|PAL|Street Fighter III - Double Impact|T7006D50|
+|PAL|Stunt GP|T22904D50|
+|PAL|Stupid Invaders|T17711D|
+|PAL|Super Magnetic Neo|T40206D50|
+|PAL|Super Runabout|T7014D50|WINCE|
+|PAL|Surf Rocket Racers|T17721D50|
+|PAL|Suzuki ALSTARE Extreme Racing|T17703D50|
+|PAL|Sword of the Berserk - Guts' Rage|T36807D05|
+|PAL|Sydney 2000|T36808D05|
+|PAL|Sydney 2000|T36808D06|
+|PAL|Sydney 2000|T36808D09|
+|PAL|Sydney 2000|T36808D13|
+|PAL|Sydney 2000|T36808D18|
+|PAL|Taxi 2 - The Game|TAXI2|WINCE|
+|PAL|Tech Romancer|T7009D50|
+|PAL|Tee Off|T8108D50|
+|PAL|TimeStalkers|MK5101153|
+|PAL|Tokyo Highway Challenge|T40201D50|
+|PAL|Tokyo Highway Challenge 2|T40210D50|
+|PAL|Tom Clancy's Rainbow Six - Rogue Spear - Mission Pack - Urban Operations|T45002D09|
+|PAL|Tom Clancy's Rainbow Six - Rogue Spear - Mission Pack - Urban Operations|T45002D18|
+|PAL|Tom Clancy's Rainbow Six - Rogue Spear - Mission Pack - Urban Operations|T45002D05|
+|PAL|Tom Clancy's Rainbow Six incl. Eagle Watch Missions|T45001D05|WINCE|
+|PAL|Tom Clancy's Rainbow Six incl. Eagle Watch Missions|T45001D09|WINCE|
+|PAL|Tom Clancy's Rainbow Six incl. Eagle Watch Missions|T45001D18|WINCE|
+|PAL|Tomb Raider - Die Chronik|T36815D18|WINCE|
+|PAL|Tomb Raider - Sur les Traces de Lara Croft|T36815D09|WINCE|
+|PAL|Tomb Raider Chronicles - La Leggenda di Lara Croft|T36815D13|WINCE|
+|PAL|Tomb Raider Chronicles|T36815D05|WINCE|
+|PAL|Tomb Raider Chronicles|T36815D06|WINCE|
+|PAL|Tomb Raider IV - The Last Revelation|T36804D05|WINCE|
+|PAL|Tony Hawk's Pro Skater 2|T13008D05|
+|PAL|Tony Hawk's Pro Skater 2|T13008D18|
+|PAL|Tony Hawk's Skateboarding|T40204D50|
+|PAL|Toy Commander|MK5102050|
+|PAL|Toy Racer|MK5114950|
+|PAL|Toy Story 2 - Buzz l'Eclair a la Rescousse!|T13003D09|
+|PAL|Toy Story 2 - Buzz Lightyear Eilt zur Hilfe!|T13003D18|
+|PAL|Toy Story 2 - Buzz Lightyear to the Rescue!|T13003D05|
+|PAL|TrickStyle|T8101D50|
+|PAL|UEFA Dream Soccer|MK5109505|
+|PAL|UEFA Dream Soccer|MK5109506|
+|PAL|UEFA Dream Soccer|MK5109509|
+|PAL|UEFA Dream Soccer|MK5109518|
+|PAL|UEFA Striker|T15102D50|
+|PAL|Ultimate Fighting Championship|T40203D50|
+|PAL|Unreal Tournament|T15113D50|
+|PAL|Urban Chaos|T36810D50|WINCE|
+|PAL|V-Rally 2 - Expert Edition|T15105D50|
+|PAL|Vanishing Point|T8110D50|
+|PAL|Vigilante 8 - 2nd Offense|T13002D|
+|PAL|Virtua Athlete 2K|MK5109450|
+|PAL|Virtua Fighter 3tb|MK5100150|
+|PAL|Virtua Striker 2|MK5102850|
+|PAL|Virtua Tennis 2|MK5118650|
+|PAL|Virtua Tennis|MK5105450|
+|PAL|Wacky Races|T15106D|
+|PAL|Walt Disney World Quest - Magical Racing Tour|T36809D50|
+|PAL|Wetrix |T40504D50|
+|PAL|Who Wants to Be a Millionaire|T36811D05|
+|PAL|Wild Metal|T40501D50|WINCE|
+|PAL|Worms Armageddon|T40601D50|WINCE|
+|PAL|Worms World Party|T7016D50|WINCE|
+|PAL|WWF Attitude|T8103N18|
+|PAL|WWF Attitude|T8103N50|
+|PAL|WWF Royal Rumble|T10003D50|
+|PAL|Zombie Revenge|MK5103850|
+|USA|102 Dalmatians - Puppies to the Rescue|T36803N|
+|USA|18 Wheeler - American Pro Trucker|MK51064|
+|USA|4 Wheel Thunder|T9708N|
+|USA|4X4 EVO|T41903N|WINCE|
+|USA|AeroWings 2 - Airstrike|T40210N|
+|USA|AeroWings|T40201N|
+|USA|Airforce Delta|T9501N|
+|USA|Airforce Delta (Demo)|6107178|
+|USA|Alien Front Online|MK51171|
+|USA|Alone in the Dark - The New Nightmare|T15117N|
+|USA|Armada|T40301N00|WINCE|
+|USA|Army Men - Sarge's Heroes|T9715N|
+|USA|Atari Anniversary Edition|T15130N|WINCE|
+|USA|BANG! - Gunship Elite|T44102N|WINCE|
+|USA|Bangai-O|T40217N|
+|USA|Blue Stinger|T13001N|
+|USA|Bomberman Online|MK51065|
+|USA|Bust-A-Move 4|T8117N|WINCE|
+|USA|Buzz Lightyear of Star Command|T13007N|
+|USA|Caesars Palace 2000 - Millennium Gold Edition|T12504N|WINCE|
+|USA|Cannon Spike|T1215N|
+|USA|Capcom vs. SNK|T1218N|
+|USA|Carrier|T5701N|
+|USA|Centipede|T40602N|
+|USA|Championship Surfer|T41403N|WINCE|
+|USA|Charge 'n Blast|T15127N|
+|USA|Chicken Run|T36811N|
+|USA|ChuChu Rocket!|MK51049|
+|USA|Coaster Works|T15128N|
+|USA|Confidential Mission|MK51160|
+|USA|Conflict Zone - Modern War Strategy|T17721N|
+|USA|Crazy Taxi 2|MK51136|
+|USA|Crazy Taxi|MK51035|
+|USA|Cyber Troopers - Virtual On - Oratorio Tangram|T13004N|
+|USA|D2|MK51036|
+|USA|Dave Mirra Freestyle BMX|T8120N|
+|USA|Daytona USA|MK51037|
+|USA|Dead or Alive 2|T3601N|
+|USA|Death Crimson OX|T2401N|
+|USA|Deep Fighter|T17705N|
+|USA|Demolition Racer - No Exit|T15112N|
+|USA|Dino Crisis|T1217N|
+|USA|Dinosaur|T17717N|
+|USA|Donald Duck - Goin' Quackers|T17714D50|
+|USA|Draconus - Cult of the Wyrm|T40203N|
+|USA|DragonRiders - Chronicles of Pern|T17720N|
+|USA|Ducati World - Racing Challenge|T8113N|WINCE|
+|USA|Dynamite Cop!|MK51013|
+|USA|Ecco the Dolphin - Defender of the Future|MK51033|
+|USA|ECW Anarchy Rulz|T8114N|
+|USA|ECW Hardcore Revolution|T8112N|
+|USA|Elemental Gimmick Gear|T41601N|
+|USA|ESPN International Track & Field|T9509N|
+|USA|ESPN NBA 2night|T9505N|
+|USA|Evil Dead - Hail to the King|T10003N|
+|USA|Evolution - The World of Sacred Device|T17706N|
+|USA|Evolution 2 - Far Off Promise|T1711N|
+|USA|Expendable|T15104N|
+|USA|F1 World Grand Prix|T3001N|
+|USA|F355 Challenge - Passione Rossa|MK0100|
+|USA|Fatal Fury - Mark of the Wolves|T44306N|
+|USA|Fighting Force 2|36801N|
+|USA|Flag to Flag|MK51007|
+|USA|Floigan Bros. - Episode 1|MK51114|
+|USA|Frogger 2 - Swampy's Revenge|T40604N|
+|USA|Fur Fighters|T8107N|
+|USA|Gauntlet Legends|T9710N|
+|USA|GigaWing 2|T1222N|
+|USA|GigaWing|T1209N|
+|USA|Grand Theft Auto 2|T42102N|
+|USA|Grandia II|T17716N|
+|USA|Grinch, The|T9512N|
+|USA|Gunbird 2|T1214N|
+|USA|Gundam - Side Story 0079 - Rise from the Ashes|T13301N|
+|USA|Heavy Metal - Geomatrix|T1223N|
+|USA|Hidden & Dangerous|T40502N|WINCE|
+|USA|House of the Dead 2, The|MK51002|
+|USA|Hoyle Casino|T11008N00|WINCE|
+|USA|Hydro Thunder|T9702N|
+|USA|Illbleed|T46001N|
+|USA|Incoming|T12503N|
+|USA|Industrial Spy - Operation Espionage|T41302N|
+|USA|Iron Aces|T15129N|
+|USA|Jeremy McGrath Supercross 2000|T8104N|
+|USA|Jet Grind Radio|MK51058|
+|USA|Jojo's Bizarre Adventure|T1206N|
+|USA|Kao the Kangaroo|T22903N|
+|USA|King of Fighters Evolution, The|T44302N|
+|USA|King of Fighters, The - Dream Match 1999|T3101N|
+|USA|Kiss Psycho Circus - The Nightmare Child|T41901N|WINCE|
+|USA|Last Blade 2, The - Heart of the Samurai|T44305N|
+|USA|Legacy of Kain - Soul Reaver|T36802N|
+|USA|Looney Tunes Space Race|T15116N|
+|USA|Magforce Racing|T40208N|
+|USA|Maken X|MK51050|
+|USA|Mars Matrix|T1221N|
+|USA|Marvel vs. Capcom - Clash of Super Heroes|T1202N|
+|USA|Marvel vs. Capcom 2|T1212N|
+|USA|Mat Hoffman's Pro BMX|T13005N|
+|USA|Max Steel - Covert Missions|T41402N|
+|USA|Maximum Pool|T11010N|WINCE|
+|USA|MDK 2|T12502N|
+|USA|Metropolis Street Racer|MK51012|
+|USA|Midway's Greatest Arcade Hits Volume 1|T9713N|WINCE|
+|USA|Midway's Greatest Arcade Hits Volume 2|T9714N|WINCE|
+|USA|Monaco Grand Prix|17701N|
+|USA|Mortal Kombat Gold|T9701N|
+|USA|Mr Driller|T1402N|
+|USA|Ms. Pac-Man - Maze Madness|T1404N|
+|USA|MTV Sports - Skateboarding Featuring Andy Macdonald|T10004N|
+|USA|Namco Museum|T1403N|
+|USA|NBA 2K1|MK51063|
+|USA|NBA 2K2|MK51178|
+|USA|NBA 2K|MK51004|
+|USA|NBA Hoopz|T9709N|
+|USA|NBA Showtime - NBA on NBC|T9706N|
+|USA|NCAA College Football 2K2 - Road to the Rose Bowl|MK51176|
+|USA|Next Tetris, The - On-line Edition|T40214N|WINCE|
+|USA|NFL 2K1|MK51062|
+|USA|NFL 2K2|MK51168|
+|USA|NFL 2K|MK51003|
+|USA|NFL Blitz 2000|T9703N|
+|USA|NFL Blitz 2001|T9712N|
+|USA|NFL QB Club 2001|T8115N|WINCE|
+|USA|NFL Quarterback Club 2000|T8101N|WINCE|
+|USA|NHL 2K2|MK51182|
+|USA|NHL 2K|MK51025|
+|USA|Nightmare Creatures II|T9504M|WINCE|
+|USA|Omikron - The Nomad Soul|T36807N|
+|USA|Ooga Booga|MK51140|
+|USA|Outtrigger|MK51102|
+|USA|PenPen TriIcelon|T15105N|
+|USA|Phantasy Star Online Ver. 2|MK51193|
+|USA|Phantasy Star Online|MK51100|
+|USA|Plasma Sword - Nightmare of Bilstein|T1207N|
+|USA|POD - Speedzone|T17713N|
+|USA|Power Stone 2|T1211N|
+|USA|Power Stone|T1201N|
+|USA|Prince of Persia - Arabian Nights|T41405N|
+|USA|Project Justice|T1219N|
+|USA|Psychic Force 2012|T31101N|
+|USA|Q-bert|T40403N|WINCE|
+|USA|Quake III Arena|MK51061|
+|USA|Railroad Tycoon II - Gold Edition|T41902N|WINCE|
+|USA|Rayman 2 - The Great Escape|17707N|
+|USA|Razor Freestyle Scooter|T40219N|
+|USA|Re-Volt|T8109N|
+|USA|Ready 2 Rumble Boxing Round 2|T9717N|
+|USA|Ready 2 Rumble Boxing|T9704N|
+|USA|Record of Lodoss War|T40218N|
+|USA|Red Dog - Superior Firepower|T40215N|
+|USA|Reel Fishing - Wild|T44303N|
+|USA|Resident Evil - Code Veronica|T1204N|
+|USA|Resident Evil 2|T1205N|WINCE|
+|USA|Resident Evil 3 - Nemesis|T1220N|
+|USA|Ring, The - Terror's Realm|T15122N|
+|USA|Rippin' Riders Snowboarding|MK51010|
+|USA|Roadsters|T22901N|
+|USA|Samba De Amigo|MK51092|
+|USA|San Francisco Rush 2049|T9707N|
+|USA|Seaman|MK51048|
+|USA|Sega Bass Fishing 2|MK51166|
+|USA|Sega Bass Fishing|MK51006|
+|USA|Sega GT|MK51053|
+|USA|Sega Marine Fishing|MK51096|
+|USA|Sega Rally 2|MK51019|WINCE|
+|USA|Sega Smashpack Volume 1|MK51146|
+|USA|Seventh Cross Evolution|T41301N|
+|USA|Shadow Man|T8106N|
+|USA|Shenmue|MK51059|
+|USA|Silent Scope|T9507N|
+|USA|Silver|T15108N|
+|USA|Skies of Arcadia|MK51052|
+|USA|Slave Zero|T15106N|
+|USA|SnoCross - Championship Racing|T40207N|WINCE|
+|USA|Soldier of Fortune|T40212N|
+|USA|Sonic Adventure - Limited Edition|MK51014|
+|USA|Sonic Adventure 2|MK51117|
+|USA|Sonic Adventure|MK51000|
+|USA|Sonic Shuffle|MK51060|
+|USA|Soul Calibur|T1401N|
+|USA|Soul Fighter|T41401N|
+|USA|South Park - Chef's Luv Shack|T8105N|WINCE|
+|USA|South Park Rally|T8116N|
+|USA|Space Channel 5|MK51051|
+|USA|Spawn - In the Demon's Hand|T1216N|
+|USA|Spec Ops II - Omega Squad|T41704N|
+|USA|Speed Devils - Online Racing|T17718N|
+|USA|Speed Devils|T17702N|
+|USA|Spider-Man|T13008N|
+|USA|Spirit of Speed 1937|T8118N|WINCE|
+|USA|Sports Jam|T44304N|
+|USA|Star Wars - Demolition|T23003N|
+|USA|Star Wars - Episode I - Jedi Power Battles|T23002N|
+|USA|Star Wars - Episode I - Racer|T23001N|
+|USA|StarLancer|T40209N|WINCE|
+|USA|Street Fighter Alpha 3|T1203N|
+|USA|Street Fighter III - 3rd Strike|T1213N|
+|USA|Street Fighter III - Double Impact|T1210N|
+|USA|Striker Pro 2000|T15111N|
+|USA|Stupid Invaders|T17708N|
+|USA|Super Magnetic Neo|T40206N|
+|USA|Super Magnetic Neo (Demo)|T40206D|
+|USA|Super Runabout - San Francisco Edition|T12509N|WINCE|
+|USA|Surf Rocket Racers|T40216N|
+|USA|Suzuki ALSTARE Extreme Racing|T17703N|
+|USA|Sword of the Berserk - Guts' Rage|T36805N|
+|USA|Sydney 2000|T36808N|
+|USA|Tech Romancer|T1208N|
+|USA|Tee Off|T8108N|
+|USA|Tennis 2K2|MK51186|
+|USA|Test Drive 6|T15102N|
+|USA|Test Drive Le Mans|T15123N|
+|USA|Test Drive V-Rally|T15110N|
+|USA|TimeStalkers|MK51011|
+|USA|TNN Motorsports Hardcore Heat|T0000M|
+|USA|Tokyo Xtreme Racer 2|T40211N|
+|USA|Tokyo Xtreme Racer|T40202N|
+|USA|Tom Clancy's Rainbow Six - Rogue Spear|T40402N|
+|USA|Tom Clancy's Rainbow Six|T40401N|WINCE|
+|USA|Tomb Raider - The Last Revelation|T36806N|WINCE|
+|USA|Tomb Raider Chronicles|T36812N|WINCE|
+|USA|Tony Hawk's Pro Skater 2|T13006N|
+|USA|Tony Hawk's Pro Skater|T40205N|
+|USA|Toy Commander|MK57020|
+|USA|Toy Story 2 - Buzz Lightyear to the Rescue!|T13003N|
+|USA|TrickStyle|T8102N|
+|USA|Typing of the Dead, The|MK51144|
+|USA|Ultimate Fighting Championship|T40204N|
+|USA|Unreal Tournament|T15125N|
+|USA|Urban Chaos|T36810N|WINCE|
+|USA|Vanishing Point|T8110N|
+|USA|Vigilante 8 - 2nd Offense|T13002N|
+|USA|Virtua Athlete 2000|T44301N|
+|USA|Virtua Fighter 3tb|MK51001|
+|USA|Virtua Striker 2|MK51028|
+|USA|Virtua Tennis|MK51054|
+|USA|Wacky Races|T15113N|
+|USA|Walt Disney World Quest - Magical Racing Tour|T36804N|
+|USA|Wetrix |T8111N|
+|USA|Who Wants to Beat Up a Millionaire|T11011N|WINCE|
+|USA|Wild Metal|T42101N 00|WINCE|
+|USA|World Series Baseball 2K1|MK51055|
+|USA|World Series Baseball 2K2|MK51152|
+|USA|Worms Armageddon|T40601N|WINCE|
+|USA|Worms World Party|T22904N|WINCE|
+|USA|WWF Attitude|T8103N|
+|USA|WWF Royal Rumble|T10005N|
+|USA|Xtreme Sports|T15126N|
+|USA|Zombie Revenge|MK51038|
+|JAP|18 Wheeler - American Pro Trucker|HDR0080|
+|JAP|21 - Two One|T46503M|
+|JAP|Advanced Daisenryaku - Sturm uber Europa - Der Deutsche Blitzkrieg|HDR0066|
+|JAP|Advanced Daisenryaku 2001|HDR0158|
+|JAP|Aero Dancing - Featuring Blue Impulse|T6802M|
+|JAP|Aero Dancing - Todoroki Taichou no Himitsu Disc|T6803M|
+|JAP|Aero Dancing F - Todoroki Tsubasa no Hatsu Hikou|T6805M|
+|JAP|Aero Dancing F|T6804M|
+|JAP|Aero Dancing i - Jikai Saku Made Matemasen|T6809M|
+|JAP|Aero Dancing i|T6807M|
+|JAP|After... - Wasure Enu Kizuna|T18706M|
+|JAP|Aikagi - Hidamari to Kanojo no Heyagi|T20130M|
+|JAP|Airforce Delta|T9502M|
+|JAP|Air|T20112M|
+|JAP|Akihabara Dennou Gumi Pata Pies!|HDR0019|
+|JAP|Angel Present|T20107M|
+|JAP|Angel Wish - Kimi no Egao ni Chu!|T18712M|
+|JAP|Animastar|T34101M|
+|JAP|Ao no 6-gou - Saigetsu Hito o Matazu - Time and Tide [AKA Blue Submarine No. 6 - Time and Tide]|HDR0075|
+|JAP|Atsumare! Guru Guru Onsen BB|HDR0121|
+|JAP|Atsumare! Guru Guru Onsen|HDR0015|
+|JAP|Bakumatsu Roman Dai ni Maku - Gekka no Kenshi - Final Edition|T3107M|
+|JAP|Bakuretsu Muteki Bangaioh|T38702M|
+|JAP|Baldr Force EXE|T47110M|
+|JAP|Bass Rush Dream - Ecogear PowerWorm Championship|T5801M|
+|JAP|Battle Beaster|T43801M|
+|JAP|Berserk - Sennen Teikoku no Taka-hen - Soushitsu Hana no Shou|T2101M|
+|JAP|Bikkuriman 2000 - Viva!Festiva!|T41801M|
+|JAP|Biohazard - Code Veronica - Kanzenban|T1240M|
+|JAP|Biohazard - Code Veronica Shokai Genteiban|T1210M|
+|JAP|Biohazard - Code Veronica|T1207M|
+|JAP|Biohazard 2 Value Plus|T1214M|WINCE|
+|JAP|Biohazard 3 - Last Escape|T1222M|
+|JAP|Black Matrix A-D|T20101M|
+|JAP|Blue Stinger|HDR0003|
+|JAP|Bokomu no Tatsujin|T42904M|
+|JAP|Boku Doraemon|T41802M|
+|JAP|Boku no Tennis Jinsei|T41202M|
+|JAP|Boku to Bokura no Natsu|T19717M|
+|JAP|Bomber Hehhe!|T42903M|
+|JAP|Border Down|T46703M|
+|JAP|Bounty Hunter Sara - Holy Mountain no Teiou|T1243M|
+|JAP|Buggy Heat|T6801M|
+|JAP|Cafe Little Wish|T46513M|
+|JAP|Canary - Kono Omoi wo Uta ni Nosete|T20111M|
+|JAP|Candy Stripe - Minarai Tenshi|HDR0172|
+|JAP|Canvas - Sepia-iro no Motif|T20108M|
+|JAP|Capcom vs. SNK - Millennium Fight 2000 Pro|T1247M|
+|JAP|Capcom vs. SNK - Millennium Fight 2000|T1217M|
+|JAP|Capcom vs. SNK 2 - Millionaire Fighting 2001|T1249M|
+|JAP|Card of Destiny - Hikari to Yami no Tougou-sha|T44406M|
+|JAP|Cardcaptor Sakura - Tomoyo no Video Daisakusen|HDR0115|
+|JAP|Carrier|T5701M|
+|JAP|Castle Fantasia - Seima Taisen|T46901M|
+|JAP|Chaos Field|T47801M|
+|JAP|Charge 'n Blast|T4402M|
+|JAP|Cherry Blossom|T37912M|WINCE|
+|JAP|Cho - Hatsumei Boy Kanipan - Bousou Robot no Nazo!|HDR0021|
+|JAP|Chocolat - Maid Cafe 'Curio'|T47107M|
+|JAP|Choukousenki Kikaioh for Matching Service|T1232M|
+|JAP|Choukousenki Kikaioh|T1206M|
+|JAP|Choukousenki Kikaioh Tentou Taikenban|6107380|
+|JAP|Chu-Chu Rocket!|HDR0039|
+|JAP|Cleopatra Fortune|T16603M|
+|JAP|Climax Landers|HDR0009|
+|JAP|Close To - Inori no Oka|T19704M|
+|JAP|Comic Party|T38301M|
+|JAP|Confidential Mission|HDR0160|
+|JAP|Cool Boarders Burrrn!|T36901M|
+|JAP|Cool Cool Toon|T3106M|
+|JAP|Cosmic Smash|HDR0176|
+|JAP|CR Hissatsu Shigotonin - Pachitte Chonmage @VP@CHI|T45801M|
+|JAP|Crazy Taxi|HDR0053|
+|JAP|Crazy Taxi 2|HDR0159|
+|JAP|Crazy Taxi 2 Have a Try Taikenban|6108041|
+|JAP|Culdcept II|T43903M|
+|JAP|Cyber Angel Mahjong Battle Shangri-La [AKA Dengen Tenshi Taisen Mahjong Shangri-La]|T40801M|
+|JAP|Cyber Troopers - Virtual On - Oratorio Tangram|HDR0040|
+|JAP|D Vine [Luv]|T46501M|
+|JAP|D2 - D no Shokutaku 2|T30006M|
+|JAP|Dabitsuku - Derby-ba wo Tsukurou! [AKA Let's Become Derby Owner!]|HDR0084|
+|JAP|Dabitsuku - Derby-ba wo Tsukurou! Taikenban|6107875|
+|JAP|Dabitsuku 2|HDR0167|
+|JAP|Dance Dance Revolution - Club Version - Dreamcast Edition|T9508M|
+|JAP|Dance Dance Revolution 2nd Mix - Dreamcast Edition|T9506M|
+|JAP|Dancing Blade - Katteni Momo Tenshi II Kanzen Ban - Tears of Eden|T9505M|
+|JAP|Dancing Blade - Katteni Momo Tenshi! Kanzen Ban|T9504M|
+|JAP|Daytona USA 2001|HDR0106|
+|JAP|De La Jet Set Radio|HDR0128|
+|JAP|Dead or Alive 2 Shokai Gentei Ban [Limited Edition]|T3601M|
+|JAP|Dead or Alive 2|T3602M|
+|JAP|Death Crimson 2|T23201M|
+|JAP|Death Crimson OX|T23202M|
+|JAP|Denpa Shounen-teki Kenshou Seikatsu Soft - Nasubi no Heya|T14305M|
+|JAP|Densha De Go! 2 - Kousoku-hen 3000 Bandai|T1102M|WINCE|
+|JAP|deSPIRIA|T14402M|
+|JAP|Di Gi Charat Fantasy|T46302M|
+|JAP|Dino Crisis|T1220M|
+|JAP|Doguu Senki - Haou|T9101M|
+|JAP|Doki Doki Idol Starseeker Remix|T46701M|
+|JAP|Dousoukai 2 - Again & Refrain|T20113M|
+|JAP|Dynamite Deka 2|HDR0020|
+|JAP|Ecco the Dolphin - Defender of the Future|HDR0103|
+|JAP|Eisei Meijin III - Game Creator Yoshimura Nobuhiro no Zunou|T9503M|WINCE|
+|JAP|Eldorado Gate Vol. 1|T1223M|
+|JAP|Eldorado Gate Vol. 2|T1224M|
+|JAP|Eldorado Gate Vol. 3|T1225M|
+|JAP|Eldorado Gate Vol. 4|T1226M|
+|JAP|Eldorado Gate Vol. 5|T1227M|
+|JAP|Eldorado Gate Vol. 6|T1228M|
+|JAP|Eldorado Gate Vol. 7|T1229M|
+|JAP|Elemental Gimmick Gear|T14302M|
+|JAP|Elysion - Eien no Sanctuary|T20116M|
+|JAP|Erde - Nezu no Kinoshitade|T19720M|
+|JAP|Espion-age-nts - Industrial Agents for Active Espionage|T38804M|
+|JAP|Es|T45501M|
+|JAP|Eternal Arcadia @barai Ban|HDR0119|
+|JAP|Eternal Arcadia|HDR0076|
+|JAP|Eternal Arcadia Tentou-you (Demo Movie)|6107918|
+|JAP|Eve Zero Kanzenban - Ark of the Matter [AKA Eve Zero - Perfect Edition]|T39803M|
+|JAP|Remember 11 - The Age of Infinity - [Ever 17 - The Out of Infinity]|T19716M|
+|JAP|Remember 11 - The Age of Infinity - [Ever 17 - The Out of Infinity - Premium Edition]|T19723M|
+|JAP|Exodus Guilty Neos|T44404M|
+|JAP|F1 World Grand Prix for Dreamcast|T3001M|
+|JAP|F1 World Grand Prix II for Dreamcast|T3002M|
+|JAP|F1 World Grand Prix II for Dreamcast Trial Version|6107922|
+|JAP|F355 Challenge|HDR0100|
+|JAP|Fighting Vipers 2|HDR0133|
+|JAP|Fire Pro Wrestling D|T18805M|
+|JAP|First Kiss Monogatari II|T46305M|
+|JAP|First Kiss Monogatari|T46304M|
+|JAP|Fish Eyes - Wild|T9105M|
+|JAP|For Symphony - With All One's Heart|T37908M|WINCE|
+|JAP|Fragrance Tale|T37905M|WINCE|
+|JAP|Frame Gride|T34201M|
+|JAP|Fushigi no Dungeon - Fuurai no Shiren Gaiden - Onnakenshi Asuka Kenzan!|HDR0187|
+|JAP|Gaia Master - Kessen! Seikiou Densetsu|T1212M|
+|JAP|Gakkyuu wo Yamazaki - Yamazaki Oukoku Dai Fun So!|HDR0050|
+|JAP|Ganbare Nippon! - Olympics 2000|T9511M|
+|JAP|Garou - Mark of the Wolves|T3108M|
+|JAP|Get Bass - Sega Bass Fishing|HDR0023|
+|JAP|Get Bass 2 - Sega Bass Fishing|HDR0169|
+|JAP|Get!! Colonies|HDR0071|WINCE|
+|JAP|Giant Gram - All Japan Pro Wrestling 2 in Nippon Budoukan|HDR0005|
+|JAP|Giant Gram 2000 - All Japan Pro Wrestling 3 Eikou no Yuusha-tachi|HDR0101|
+|JAP|GigaWing 2|T1239M|
+|JAP|GigaWing|T1208M|
+|JAP|Godzilla Generations Maximum Impact|HDR0047|
+|JAP|Godzilla Generations|HDR0004|
+|JAP|Golem no Maigo [AKA The Lost Golem]|T41501M|
+|JAP|Golf Shiyouyo - Course Data Shuu Adventure-Hen|T40904M|
+|JAP|Golf Shiyouyo 2 - Aratanaru Chousen|T44501M|
+|JAP|Golf Shiyouyo|T40901M|
+|JAP|Grandia II|T4503M|
+|JAP|Grandia II - Tentou-you (Demo)|6107878|
+|JAP|Grauen no Torikago - Kapitel 1 - Keiyaku|HDR0033|
+|JAP|Grauen no Torikago - Kapitel 2 - Torikago|HDR0034|
+|JAP|Grauen no Torikago - Kapitel 3 - Kansei|HDR0035|
+|JAP|Grauen no Torikago - Kapitel 4 - Kaikou|HDR0036|
+|JAP|Grauen no Torikago - Kapitel 5 - Shokuzai|HDR0037|
+|JAP|Grauen no Torikago - Kapitel 6 - Senritsu|HDR0038|
+|JAP|Guilty Gear X|T2402M|
+|JAP|Gunbird 2|T1213M|
+|JAP|Gundam - Side Story 0079 - Rise from the Ashes - Colony no Ochita Chi de... Tokubetsuban|T13303M|
+|JAP|Gundam - Side Story 0079 - Rise from the Ashes - Colony no Ochita Chi de...|T13302M|
+|JAP|Gundam - Side Story 0079 - Rise from the Ashes - Premium Disc|6107160|
+|JAP|Gundam Battle Online|T13304M|
+|JAP|Gunspike|T1219M|
+|JAP|Guru Guru Onsen 2|HDR0168|
+|JAP|Guru Guru Onsen 3|HDR0195|
+|JAP|Hanagumi Taisen Columns 2|HDR0046|
+|JAP|Happy Breeding|T46512M|
+|JAP|Happy Lesson|T19503M|WINCE|
+|JAP|Harusame Youbi|T20106M|
+|JAP|Heavy Metal - Geomatrix|T1246M|
+|JAP|Heisei Mahjong Sou|T2202M|
+|JAP|Hello Kitty - Lovely Fruit Park|HDR0055|WINCE|
+|JAP|Hello Kitty - Magical Block|HDR0070|WINCE|
+|JAP|Hello Kitty - Waku Waku Cookies|HDR0090|WINCE|
+|JAP|Hello Kitty no Garden Panic|6107381|WINCE|
+|JAP|Himitsu - Yui ga Ita Natsu|T46101M|
+|JAP|Historical Mystery Adventure Troia 1186 B.C.|T39701M|WINCE|
+|JAP|House of the Dead 2, The|HDR0007|
+|JAP|Hundred Swords @barai Ban|HDR0127|WINCE|
+|JAP|Hundred Swords|HDR0124|WINCE|
+|JAP|Idol Janshi wo Tsukucchaou|T5703M|
+|JAP|Ikaruga|T38706M|
+|JAP|Illbleed [Taiwan release]|T45601M11|
+|JAP|Illbleed|T45601M|
+|JAP|Imperial no Taka - Fighter of Zero|T43501M|
+|JAP|Incoming - Jinrui Saishuu Kessen [AKA Incoming - Humanity Last Battle]|T15001M|
+|JAP|Inoue Ryouko - Last Scene|T19506M|
+|JAP|Inoue Ryouko - Roommate|T19505M|
+|JAP|Interlude|T20117M|
+|JAP|Iris|T19722M|
+|JAP|Izumo|T46902M|
+|JAP|J.League Pro Soccer Club wo Tsukurou!|HDR0028|
+|JAP|J.League Spectacle Soccer|HDR0154|
+|JAP|Jah-Mong|T43401M|
+|JAP|Jet Coaster Dream 2|T41201M|
+|JAP|Jet Coaster Dream|T40902M|
+|JAP|Jet Set Radio|HDR0078|
+|JAP|Jet Set Radio Taikenban|6107888|
+|JAP|Jikkyou Powerful Pro Yakyuu - Dreamcast Edition|T9507M|
+|JAP|Jinsei Game for Dreamcast|T10301M|
+|JAP|Jissen Pachislo Hisshouhou! @ VP@CHI - Kongdom|T18802M|
+|JAP|Jojo no Kimyouna Bouken - Mirai He no Isan for Matching Service|T1231M|
+|JAP|Jojo no Kimyouna Bouken - Mirai He no Isan|T1205M|
+|JAP|July|T35401M|
+|JAP|Kaen Seibo - The Virgin on Megiddo|T42802M|
+|JAP|Kaitou Apricot|T37910M|WINCE|
+|JAP|Kanon|T20105M|
+|JAP|Karous|T47803M|
+|JAP|Kaze no Uta|T47501M|
+|JAP|Kidou Senkan Nadesico - Nadesico the Mission|T27901M|
+|JAP|Kidou Senshi Gundam - Gihren no Yabou - Zeon no Keifu|T13305M|
+|JAP|Kidou Senshi Gundam - Renpou vs. Zeon & DX|T13306M|
+|JAP|Kimi ga Nozomu Eien|T47101M|
+|JAP|King of Fighters '99 Evolution, The|T3102M|
+|JAP|King of Fighters 2000, The|T47303M|
+|JAP|King of Fighters 2001, The|T47304M|
+|JAP|King of Fighters 2002, The|T47305M|
+|JAP|King of Fighters, The - Dream Match 1999|T3101M|
+|JAP|Kita He - Photo Memories|T14306M|
+|JAP|Kita He - White Illumination|T14301M|WINCE|
+|JAP|Kitahei Gold|T39801M|WINCE|
+|JAP|Kiteretsu Boy's Gangagan|HDR0064|
+|JAP|Konohana - True Report|T9905M|
+|JAP|Konohana 2 - Todokanai Requiem|T9906M|
+|JAP|Kuon no Kizuna - Sairinshou|T36701M|
+|JAP|L.O.L. - Lack of Love|T2106M|
+|JAP|Lake Masters Pro - Dreamcast Plus!|T42401M|
+|JAP|Langrisser Millennium|T2501M|
+|JAP|Le Mans 24 Hours|HDR0149|
+|JAP|Love Hina - Smile Again|HDR0139|
+|JAP|Love Hina - Totsuzen no Engeji Happening|HDR0102|
+|JAP|Maboroshi Tsukiyo|T4401M|
+|JAP|Maboroshi Tsukiyo Taikenban|6107186|
+|JAP|Macross M3|T21501M|
+|JAP|Magic - The Gathering|HDR0116|
+|JAP|Mahjong Taikai II Special|T7601M|
+|JAP|Majo no Ochakai [AKA Majyo no Otya Kai]|T20124M|
+|JAP|Maken X|T14401M|
+|JAP|Marie & Elie no Atelier - Salburg no Renkinjutsushi 1-2|T44701M|
+|JAP|Marionette Company 2|T5203M|WINCE|
+|JAP|Marionette Company|T5202M|WINCE|
+|JAP|Marionette Handler 2|T2204M|
+|JAP|Marionette Handler|T2201M|
+|JAP|Mars Matrix|T1238M|
+|JAP|Marvel vs. Capcom - Clash of Super Heroes|T1202M|
+|JAP|Marvel vs. Capcom 2 - New Age of Heroes|T1215M|
+|JAP|Mei - Puru|T46510M|
+|JAP|Memories Off 2nd|T19707M|
+|JAP|Memories Off Complete|T19702M|
+|JAP|Mercurius Pretty - End of the Century|T20103M|
+|JAP|Merge - Marginal|T46514M|
+|JAP|Metal Wolf|T46507M|
+|JAP|Milky Season|T19713M|
+|JAP|Miss Moonlight|T18702M|WINCE|
+|JAP|Missing Parts - The Tantei Stories|T36702M|
+|JAP|Missing Parts 2 - The Tantei Stories|T36703M|
+|JAP|Missing Parts 3 - The Tantei Stories|T36704M|
+|JAP|Mizuiro|T20114M|
+|JAP|Moekan - Moekko Company|T46515M|
+|JAP|Moero! Justice Gakuen|T1221M|
+|JAP|Monaco Grand Prix Racing Simulation 2|T17701M|
+|JAP|Morita no Saikyou Reversi|T39102M|WINCE|
+|JAP|Morita no Saikyou Shougi|T39101M|WINCE|
+|JAP|Motto Pro Yakyuu Team wo Tsukurou!|HDR0092|
+|JAP|Mr. Driller|T1402M|
+|JAP|Musapey's Chocomarker|T23203M|
+|JAP|My Merry Maybe|T19719M|
+|JAP|My Merry May|T19714M|
+|JAP|My Trackman|T37001M|
+|JAP|Nakoruru - Ano Hito Kara no Okurimono|T44702M|
+|JAP|Nanatsu no Hikan - Senritsu no Bishou|T7604M|
+|JAP|Napple Tale - Arsia in Daydream|HDR0079|
+|JAP|NBA 2K1|HDR0150|
+|JAP|NBA 2K|HDR0069|
+|JAP|Neo Golden Logres|T9904M|
+|JAP|Neppachi - 10-ren Chan De Las Vegas Ryokou|T41002M|
+|JAP|Neppachi II @ VP@CHI - CR Harenchi Gakuen|T41003M|
+|JAP|Neppachi III @ VP@CHI - CR Dokonjou Gaeru 2 - CR Dokonjou Gaeru H|T41004M|
+|JAP|Neppachi IV @ VP@CHI - CR Ah!! Hana no Ouendan 3|T41005M|
+|JAP|Neppachi V @ VP@CHI - CR Monster House|T41006M|
+|JAP|Neppachi VI @ VP@CHI - CR Otakara Tankentai|T41007M|
+|JAP|Net De Para|T37903M|WINCE|
+|JAP|Net de Tennis|T1234M|
+|JAP|Net Versus - Chess|T45706M|
+|JAP|Net Versus - Gomokunarabe & Renju|T45705M|
+|JAP|Net Versus - Hanafuda|T45704M|
+|JAP|Net Versus - Igo|T45703M|
+|JAP|Net Versus - Mahjong|T45701M|
+|JAP|Net Versus - Reversi|T45707M|
+|JAP|Net Versus - Shougi|T45702M|
+|JAP|Nettou Golf|HDR0006|
+|JAP|Never 7 - The End of Infinity|T19703M|
+|JAP|NFL 2K1|HDR0144|
+|JAP|NFL 2K2|HDR0196|
+|JAP|NFL 2K|HDR0058|
+|JAP|Nijyuei [AKA Nijuuei]|T46505M|
+|JAP|Nippon Pro Mahjong Renmei Kounin - Tetsuman Menkyokaiden|T18701M|
+|JAP|Nishikaze no Kyoushikyoku - The Rhapsody of Zephyr|T44502M|WINCE|
+|JAP|Nobunaga no Yabou - Reppuuden|T7605M|
+|JAP|Nobunaga no Yabou - Shouseiroku with Power-Up Kit|T7602M|
+|JAP|Ohgami Ichirou Funtouki - Sakura Taisen Kayou Show Beni Tokage Yori|HDR0057|
+|JAP|Omoide ni Kawaru Kimi - Memories Off|T19718M|
+|JAP|Orange Pocket - Cornet|T18708M|
+|JAP|Oukahoushin - Oukasakishitoki|T38704M|
+|JAP|Outtrigger|HDR0118|
+|JAP|Pachi-Slot Teiou Dream Slot - Heiwa SP|T20501M|
+|JAP|Pachi-Slot Teiou Dream Slot - Olympia SP|T20502M|
+|JAP|Pachinko no Dendou - CR Nanasy|T5205M|
+|JAP|Pandora no Yume|T20120M|
+|JAP|Panzer Front|T2102M|
+|JAP|Patissier na Nyanko - Hatsukoi wa Ichigo Aji|T18710M|
+|JAP|PenPen TriIcelon|T17001M|
+|JAP|Phantasy Star Online Ver. 2|HDR0163|
+|JAP|Phantasy Star Online|HDR0129|
+|JAP|Pia Carrot He Youkoso!! 2.5 [Pia Carrot He Youkoso!! 2.2]|T20109M|
+|JAP|Pia Carrot He Youkoso!! 3 [AKA Welcome to Pia Carrot!! 3]|T20122M|
+|JAP|Pizzicato Polka - Ensa Genya|T19724M|
+|JAP|Plus Plumb|T37901M|WINCE|
+|JAP|Pocke-Kano - Yumi - Shizuka - Fumio|T19501M|
+|JAP|Pop'n Music 2|T9590M|
+|JAP|Pop'n Music 3 - Append Disc|T9591M|
+|JAP|Pop'n Music 4 - Append Disc|T9592M|
+|JAP|Pop'n Music|T9501M|
+|JAP|Power Jet Racing 2001|T6806M|
+|JAP|Power Smash 2|HDR0177|
+|JAP|Power Smash|HDR0113|
+|JAP|Power Stone 2|T1218M|
+|JAP|Power Stone|T1201M|
+|JAP|Princess Holiday - Korogaru Ringotei Sen'ya Ichiya|T47106M|
+|JAP|Princess Maker Collection|T44801M|WINCE|
+|JAP|Prism Heart - Ken ni Kometa Omoi [Prism Heart Shokai Genteiban]|T19711M|
+|JAP|Prism Heart|T19712M|
+|JAP|Prismaticallization|T22002M|
+|JAP|Pro Mahjong Kiwame D|T16801M|
+|JAP|Pro Yakyuu Team de Asobou Net!|HDR0091|
+|JAP|Pro Yakyuu Team de Asobou!|HDR0027|
+|JAP|Pro Yakyuu Team de Asobou! Taikenban|6107385|
+|JAP|Pro Yakyuu Team wo Tsukurou! & Asobou!|HDR0173|
+|JAP|Pro Yakyuu Team wo Tsukurou!|HDR0022|
+|JAP|Psychic Force 2012|T1101M|
+|JAP|Psyvariar 2 - The Will to Fabricate|T9907M|
+|JAP|Puyo Puyo 4|HDR0014|
+|JAP|Puyo Puyo DA! - Featuring ELLENA System|T6601M|
+|JAP|Puyo Puyo Fever|HDR0216|
+|JAP|Puzzle Bobble 4|T42301M|WINCE|
+|JAP|Quiz Aa Megami-Sama - Tatakau Tsubasa to Tomoni [AKA Quiz Ah! My Goddess]|HDR0105|
+|JAP|Radirgy|T47802M|
+|JAP|Rainbow Cotton|T9901M|
+|JAP|Rayman - Kaizoku-sen Kara no Dasshutsu!|T17703M|
+|JAP|Re-Volt|T8101M|
+|JAP|Ready 2 Rumble Boxing|HDR0051|
+|JAP|Record of Lodoss War - The Advent of Cardice [AKA Lodoss Shima Senki - Jashin Kourin Taikenban]|T27903M|
+|JAP|Record of Lodoss War - The Advent of Cardice Taikenban [AKA Lodoss Shima Senki - Jashin Kourin Taikenban]|6107816|
+|JAP|Redline Racer|T15002M|
+|JAP|Ren'ai Chu! - Happy Perfect|T47602M|
+|JAP|Rent a Hero No. 1|HDR0074|
+|JAP|Revive... - Sosei|T1301M|
+|JAP|Rez|HDR0178|
+|JAP|Ring, The|T27902M|
+|JAP|Roommania #203|HDR0044|
+|JAP|Roommate Asami - Okusama ha Joshikousei - Director's Edition|T19508M|
+|JAP|Roommate Novel - Yuka Sato|T19502M|
+|JAP|Run=Dim as Black Soul|T46201M|
+|JAP|Rune Caster|T40001M|
+|JAP|Rune Jade|T14304M|WINCE|
+|JAP|Sakatsuku Tokudai-gou - J.League Pro Soccer Club wo Tsukurou!|HDR0126|
+|JAP|Sakatsuku Tokudai-gou 2 - J.League Pro Soccer Club wo Tsukurou!|HDR0183|
+|JAP|Sakura Momoko Gekijou Coji Coji|T40802M|
+|JAP|Sakura Taisen 2|HDR0082|
+|JAP|Sakura Taisen 3 - Paris wa Moete Iru Ka|HDR0152|
+|JAP|Sakura Taisen 4 - Koi Seyo Otome|HDR0191|
+|JAP|Sakura Taisen Online - Paris no Yuugana Hibi|HDR0185|
+|JAP|Sakura Taisen Online - Teito no Nagai Hibi|HDR0184|
+|JAP|Sakura Taisen|HDR0072|
+|JAP|Samba De Amigo Ver. 2000|HDR0131|
+|JAP|Samba De Amigo|HDR0063|
+|JAP|Sangokushi VI with Power-Up Kit|T7607M|
+|JAP|Sangokushi VI|T7603M|
+|JAP|Seaman - Kindan no Pet|T39401M|
+|JAP|Seaman - Kindan no Pet - nen Taiouban|T39406M|
+|JAP|Seaman Ikusei Shien Kit - Seaman Esa Disc [AKA Seaman Complete Kit Feed Disc]|6107804|
+|JAP|Sega Extreme Sports|HDR0146|
+|JAP|Sega GT - Homologation Special|HDR0054|
+|JAP|Sega Marine Fishing|HDR0104|
+|JAP|Sega Rally 2|HDR0010|WINCE|
+|JAP|Sega Tetris|HDR0073|
+|JAP|Seireiki Rayblade|T42201M|
+|JAP|Seitai Heiki Expendable|T15003M|
+|JAP|Sengoku Turb - Fanfan I Love me Dunce-doublentendre|T38805M|
+|JAP|Sengoku Turb|T38801M|
+|JAP|Sentimental Graffiti - Yakusoku|T20128M|
+|JAP|Sentimental Graffiti 2|T20104M|
+|JAP|Seventh Cross|T38802M|
+|JAP|SGGG - Segagaga|HDR0151|
+|JAP|Shanghai Dynasty|T9902M|
+|JAP|Shenmue - Ichishou Yokosuka|HDR0016|
+|JAP|Shenmue II|HDR0164|
+|JAP|Shikigami no Shiro II|T47702M|
+|JAP|Shin Honkaku Hanafuda|T16601M|
+|JAP|Shin Nihon Pro Wrestling - Toukon Retsuden 4|T28202M|
+|JAP|Shinki Sekai Evolution 2 - Tooi Yakusoku|T38703M|
+|JAP|Shinki Sekai Evolution|T38701M|
+|JAP|Shinri Game, The - The Psychological Game|T43403M|
+|JAP|Shinseiki Evangelion - Ayanami Ikusei Keikaku|T46303M|
+|JAP|Shinseiki Evangelion - Typing E Keikaku|T35101M|WINCE|
+|JAP|Shinseiki Evangelion - Typing Hokan Keikaku [AKA Evangelion Type C]|T35102M|WINCE|
+|JAP|Shirotsumesouwa - Episode of the Clovers|T20123M|
+|JAP|Shutokou Battle 2|T30803M|
+|JAP|Shutokou Battle|T30801M|
+|JAP|Shutokou Battle Taikenban|6107134|
+|JAP|Silent Scope|T9513M|
+|JAP|Simple2000 Series DC Vol. 01 - Bittersweet Fools - The Ren'ai Adventure|T47401M|
+|JAP|Simple2000 Series DC Vol. 02 - Natsuiro Celebration - The Ren'ai Simulation|T47404M|
+|JAP|Simple2000 Series DC Vol. 03 - Fureai - The Ren'ai Simulation|T47402M|
+|JAP|Simple2000 Series DC Vol. 04 - Okaeri! - The Ren'ai Adventure|T47403M|
+|JAP|Sister Princess - Premium Edition|T27802M|
+|JAP|Snow|T20132M|
+|JAP|Sonic Adventure 2|HDR0165|
+|JAP|Sonic Adventure International|HDR0043|
+|JAP|Sonic Adventure|HDR0001|
+|JAP|Sonic Shuffle|HDR0125|
+|JAP|Sora wo Mau Tsubasa - Blue-Sky-Blue|T23205M|
+|JAP|Sorcerian - Shichisei Mahou no Shito|T9103M|
+|JAP|Soukou no Kihei - Space Griffon|T39601M|WINCE|
+|JAP|Soul Calibur|T1401M|
+|JAP|Soul Calibur Tentou Taikenban|6107173|
+|JAP|Space Channel 5 - Part 2|HDR0190|
+|JAP|Space Channel 5|HDR0029|
+|JAP|Spawn - In the Demon's Hand|T1216M|
+|JAP|Speed Devils|T17702M|
+|JAP|Spirit of Speed 1937|T8102M|WINCE|
+|JAP|Sports Jam|HDR0153|
+|JAP|Star Gladiator 2 - Nightmare of Bilstein|T1204M|
+|JAP|Street Fighter III 3rd Strike - Fight for the Future|T1209M|
+|JAP|Street Fighter III W Impact|T1211M|
+|JAP|Street Fighter Zero 3 - Saikyo-ryu Dojo for Matching Service|T1230M|
+|JAP|Street Fighter Zero 3 - Saikyo-ryu Dojo|T1203M|
+|JAP|Suigetsu - Mayoigokoro|T19725M|
+|JAP|Suika|T46509M|
+|JAP|Sunrise Eiyuutan|T41101M|
+|JAP|Super Euro Soccer 2000|T15006M|
+|JAP|Super Magnetic NiuNiu|T30802M|
+|JAP|Super Producers - Mezase Show Biz Kai|T14303M|WINCE|
+|JAP|Super Puzzle Fighter IIX for Matching Service|T1250M|
+|JAP|Super Robot Taisen Alpha for Dreamcast|T20602M|WINCE|
+|JAP|Super Runabout - San Francisco Edition|T22102M|WINCE|
+|JAP|Super Runabout|T22101M|WINCE|
+|JAP|Super Speed Racing|HDR0013|
+|JAP|Super Street Fighter IIX for Matching Service - Grand Master Challenge|T1236M|
+|JAP|Sweet Season|T37911M|WINCE|
+|JAP|Sydney 2000|T1237M|
+|JAP|Taisen Net Gimmick - Capcom & Psikyo All Stars|T1248M|
+|JAP|Tako no Marine|T5204M|
+|JAP|Tamakyuu [AKA Tama-cue]|T20133M|
+|JAP|Tanaka Torahiko no Urutoraryu Shougi - Ihisha Anaguma-hen|T22001M|
+|JAP|Tantei Shinshi Dash!|T44401M|
+|JAP|Tenohira wo, Taiyou ni|T46516M|
+|JAP|Tentama - 1st Sunny Side|T19710M|
+|JAP|Tetris 4D|T20801M|
+|JAP|Tokusatsu Bouken Katsugeki - Super Hero Retsuden|T20601M|
+|JAP|Tokyo Bus Guide|T35402M|
+|JAP|Tomb Raider IV - The Last Revelation|T1233M|WINCE|
+|JAP|Totsugeki! Teketeke!! Toy Ranger|HDR0052|
+|JAP|Treasure Strike|T19701M|
+|JAP|Tricolore Crise|T9104M|
+|JAP|Triggerheart Exelica|T29102M|
+|JAP|Trizeal|T47901M|
+|JAP|Tsuki wa Higashi ni Hi wa Nishi ni - Operation Sanctuary|T47109M|
+|JAP|Tsuushin Taisen Logic Battle Daisessen|T35403M|WINCE|
+|JAP|Twinkle Star Sprites|T3103M|
+|JAP|Typing of the Date|T14307M|
+|JAP|Typing of the Dead, The|HDR0067|
+|JAP|Ultimate Fighting Championship|T1241M|
+|JAP|Under Defeat|T46705M|
+|JAP|UnderCover AD 2025 Kei|T39001M|WINCE|
+|JAP|US Shenmue|HDR0156|
+|JAP|Utau - Tumbling Dice|T23207M|
+|JAP|Vampire Chronicle for Matching Service|T1235M|
+|JAP|Vermilion Desert|T5302M|
+|JAP|Vigilante 8 - 2nd Battle|T36501M|
+|JAP|Virtua Athlete 2K|HDR0081|
+|JAP|Virtua Cop 2|HDR0061|WINCE|
+|JAP|Virtua Fighter 3tb|HDR0002|
+|JAP|Virtua Striker 2|HDR0045|
+|JAP|Virtua Fighter 4 Passport|6108088|
+|JAP|Weakness Hero Torauman DC|T35405M|
+|JAP|Web Mystery - Yochimu wo Miru Neko|T39501M|
+|JAP|Wind - A Breath of Heart|T47104M|
+|JAP|Winning Post 4 - Program 2000|T7606M|
+|JAP|World Neverland 2 Plus - Pluto Kyouwakoku Monogatari [AKA The Waktic Republic of Pluto]|T5303M|
+|JAP|World Neverland Plus - Olerud Oukoku Monogatari [AKA The Olerud Kingdom Stories]|T5301M|WINCE|
+|JAP|World Series Baseball 2K1|HDR0157|
+|JAP|WWF Royal Rumble|T45101M|
+|JAP|Yoshia no Oka De Nekoronde...|T18704M|WINCE|
+|JAP|Yu Suzuki Game Works Vol. 1|6108099|
+|JAP|Yukawa Moto Senmu no Otakara Sagashi|HDR0024|
+|JAP|Yuki Gatari|T37909M|WINCE|
+|JAP|Yukyu Gensokyoku 3 - Perpetual Blue|T27801M|
+|JAP|Yume no Tsubasa - Fate of Heart|T19706M|
+|JAP|Zero Gunner 2|T20401M|
+|JAP|Zombie Revenge|HDR0026|
+|JAP|Zusar Vasar|T43301M|
+|TRANSLATION|Blue Submarine No. 6 - Time And Tide|HDR0075|
+|TRANSLATION|Boko Dream Master|T42904M|
+|TRANSLATION|Capcom vs. SNK 2 - Millionaire Fighting 2001|T1249M|
+|TRANSLATION|Chaos Field|T47801M|
+|TRANSLATION|Evangelion Typing E|T35101M|
+|TRANSLATION|Evangelion Typing Project|T35102M|
+|TRANSLATION|Fire Pro Wrestling D|T18805M|
+|TRANSLATION|Fish Life Amazon|HDR0094|
+|TRANSLATION|Frame Gride|T34201M|
+|TRANSLATION|Karous|T47803M|
+|TRANSLATION|L.O.L - Lack of Love|T2106M|
+|TRANSLATION|Maken X (Undub)|MK51050|
+|TRANSLATION|Mobile Suit Gundam Earth Federation vs Principality of Zeon and DX|T13306M|
+|TRANSLATION|Yukawa's Treasure Hunt|HDR0024|
+|TRANSLATION|Panzer Front|T2102M|
+|TRANSLATION|Puyo Puyo ~N|HDR0014|
+|TRANSLATION|Radirgy|T47802M|
+|TRANSLATION|Rainbow Cotton|T9901M|
+|TRANSLATION|Rent A Hero No. 1|HDR0074|
+|TRANSLATION|Rune Jade|T14304M|WINCE|
+|TRANSLATION|The Lost Golem|T41501M|
+|TRANSLATION|Napple Tale - Arsia In Daydream|HDR0079|
+|TRANSLATION|Sakura Wars - Columns 2|HDR0046|
+|TRANSLATION|Seven Mansions - Ghastly Smile|T38801M|
+|TRANSLATION|Space Channel 5 - Part 2|HDR0190|
+|TRANSLATION|Super Puzzle Fighter 2X|T1250M|
+|TRANSLATION|Super Street Fighter 2X|T1236M|
+|TRANSLATION|Taxi 2 - The Game|TAXI2|WINCE|
+|TRANSLATION|What's Shenmue|6107179|
+|UNVERIFIED|DC Checker Ver.2.05 for Repair v2.050|DCCHECKER|
+|UNVERIFIED|Digital Catalog - Celsior|T39214M|
+|UNVERIFIED|Dream Preview Vol. 8|610702708|
+|UNVERIFIED|Dreamkey|6107719|
+|UNVERIFIED|Dreamon Volume 10|832003109|
+|UNVERIFIED|GD Drive Repair Program Ver 0.1|HKT999999|
+|UNVERIFIED|ISAO Promotion Disc by Seaman|6107813|
+|APPLICATION|Action Replay CDX 3.0|HDR0030|
+|APPLICATION|Broadband Passport|6107883|
+|APPLICATION|Christmas Seaman - Omoi wo Tsutaeru Mou Hitotsu no Houhou (Message Disc)|T39403M|
+|APPLICATION|Christmas Seaman - Omoi wo Tsutaeru Mou Hitotsu no Houhou (Present Disc)|T39404M|
+|APPLICATION|Dejiko no Maibura|T44601M|
+|APPLICATION|Dream Passport 2 for LAN|6107710|
+|APPLICATION|Dream Passport 2|6107180|
+|APPLICATION|Dream Passport 3 - Urban Style|6107894|
+|APPLICATION|Dream Passport 3|6107819|
+|APPLICATION|Dream Passport for Toyota|6107057|
+|APPLICATION|Dream Passport Premier|6108061|
+|APPLICATION|Dream Passport|6107000|
+|APPLICATION|Dream Passport|6107055|
+|APPLICATION|Dreamcast SYSTEM-DISC 2|HKT0900|
+|APPLICATION|Dreamcast VM Data Issue|6108094|
+|APPLICATION|DreamFlyer|HDR0042|
+|APPLICATION|Dreamkey 3.0|832006850|
+|APPLICATION|Dreamkey 3.1|832006906|
+|APPLICATION|Dreamkey 3.1|832006946|
+|APPLICATION|Dreamkey Version 1.5|832002205|
+|APPLICATION|Dreamkey Version 1.5|832002206|
+|APPLICATION|Dreamkey Version 1.5|832002209|
+|APPLICATION|Dreamkey Version 2.0|832004550|
+|APPLICATION|Dreamkey Version 2.0|832004646|
+|APPLICATION|Dreamkey Version 2.0|832005350|
+|APPLICATION|Dreamkey|832000205|
+|APPLICATION|Dreamkey|832000409|
+|APPLICATION|Dreamstud!o - 3D Adventure Construction|HDR0114|
+|APPLICATION|Hello Kitty Dream Passport 2|6107349|
+|APPLICATION|Hello Kitty no Otonaru Mail|HDR0065|
+|APPLICATION|JRA PAT for Dreamcast|HDR0204|
+|APPLICATION|JRA PAT for Dreamcast|T42501M|
+|APPLICATION|Microsoft WebTV Setsuzoku Kit - 128bit SSL Taiouhan [AKA Microsoft WebTV Connection Kit]|6107390|WINCE|
+|APPLICATION|Microsoft WebTV Setsuzoku Kit [AKA Microsoft WebTV Connection Kit]|6107117|WINCE|
+|APPLICATION|O.To.I.Re Dreamcast Sequencer|T32801M|
+|APPLICATION|Planetweb Internet Browser V3.0 for Dreamcast|T31901N|
+|APPLICATION|Sakura Taisen - Kinematron Hanagumi Mail|HDR0136|
+|APPLICATION|Sakura Taisen Dream Passport 3|6107996|
+|APPLICATION|Sega Dreamcast Web Browser 1.124|MK51027|
+|APPLICATION|Sega Dreamcast Web Browser 1.125|MK51027A|
+|APPLICATION|Sega Dreamcast Web Browser 2.62|MK51142|
+|APPLICATION|Segakara for Dreamcast|6107762|
+|APPLICATION|Visual Park|6107801|
+|APPLICATION|Web Browser 2.0|MK51056|
+|APPLICATION|Web Browser 2.0|MK51128|
+|APPLICATION|Yumebaken '99 Internet|T40101M|
+|SAMPLER|Aero Dancing - Featuring Blue Impulse Tentou Taikenban|6107106|
+|SAMPLER|Aero Dancing F Taikenban|6107740|
+|SAMPLER|Aero to Jet de Dancing Taikenban Disc|6108017|
+|SAMPLER|Berserk - Sennen Teikoku no Taka-hen - Soushitsu Hana no Shou Taikenban|6107370|
+|SAMPLER|Capcom vs. SNK - Millennium Fight 2000 Tentou Taikenban|6107917|
+|SAMPLER|Chocolat - Maid Cafe 'Curio' Taikenban|6108395|
+|SAMPLER|Chu-Chu Rocket! Taikenban|6107384|
+|SAMPLER|D2 Shock|T30001M|
+|SAMPLER|Dead or Alive 2 Taikenban Saishin Hi Eizou[!]|6107913|
+|SAMPLER|Dead or Alive 2|T8116D50|
+|SAMPLER|Dorimaga GD Vol. 10|610716411|
+|SAMPLER|Dorimaga GD Vol. 11|610716412|
+|SAMPLER|Dorimaga GD Vol. 12|610716413|
+|SAMPLER|Dorimaga GD Vol. 1|6107140|
+|SAMPLER|Dorimaga GD Vol. 2|610716402|
+|SAMPLER|Dorimaga GD Vol. 3|610716403|
+|SAMPLER|Dorimaga GD Vol. 5|610716406|
+|SAMPLER|Dorimaga GD Vol. 6|610716407|
+|SAMPLER|Dorimaga GD Vol. 8|610716409|
+|SAMPLER|Dorimaga GD Vol. 9|610716410|
+|SAMPLER|Dreamcast Express Extra|6107709|
+|SAMPLER|Dreamcast Express Vol. 1|610711001|
+|SAMPLER|Dreamcast Express Vol. 2|610711002|
+|SAMPLER|Dreamcast Express Vol. 3|610711003|
+|SAMPLER|Dreamcast Express Vol. 4|610711004|
+|SAMPLER|Dreamcast Express Vol. 5|610711005|
+|SAMPLER|Dreamcast Express Vol. 6|610711006|
+|SAMPLER|Dreamcast Express Vol. 7|610711007|
+|SAMPLER|Dreamcast Promotion Disk - Dorimaga Tokusei!|6107124|
+|SAMPLER|Dreamon Collection 2|832002150|
+|SAMPLER|Dreamon Collection 3|832002650|
+|SAMPLER|Dreamon Collection 4|832004050|
+|SAMPLER|Dreamon Volume 10|832002750|
+|SAMPLER|Dreamon Volume 10|832002850|
+|SAMPLER|Dreamon Volume 11|832003250|
+|SAMPLER|Dreamon Volume 12|832003550|
+|SAMPLER|Dreamon Volume 13|832003850|
+|SAMPLER|Dreamon Volume 14|832004350|
+|SAMPLER|Dreamon Volume 15|832004750|
+|SAMPLER|Dreamon Volume 16|832005150|
+|SAMPLER|Dreamon Volume 17|832005450|
+|SAMPLER|Dreamon Volume 18|832005650|
+|SAMPLER|Dreamon Volume 19|832006050|
+|SAMPLER|Dreamon Volume 1|832000250|
+|SAMPLER|Dreamon Volume 20|832006250|
+|SAMPLER|Dreamon Volume 21|832006450|
+|SAMPLER|Dreamon Volume 22|832006650|
+|SAMPLER|Dreamon Volume 2|832000150|
+|SAMPLER|Dreamon Volume 3|832000671|
+|SAMPLER|Dreamon Volume 4|832001150|
+|SAMPLER|Dreamon Volume 5|832001250|
+|SAMPLER|Dreamon Volume 6|832001550|
+|SAMPLER|Dreamon Volume 7&8|832002550|
+|SAMPLER|Dreamon Volume 7|832001750|
+|SAMPLER|Dreamon Volume 8|832001950|
+|SAMPLER|Dreamon Volume 9|832002350|
+|SAMPLER|Dynamite Deka 2 Taikenban|6107146|
+|SAMPLER|Dynamite Deka 2 Taikenban|6107150|
+|SAMPLER|Eternal Arcadia Kuuzoku-ban|6107810|
+|SAMPLER|F1 World Grand Prix II for Dreamcast|T3002D50|
+|SAMPLER|F355 Challenge Taikenban|6107899|
+|SAMPLER|Fighting Vipers 2|MK5115450|
+|SAMPLER|Frame Gride - Pilot Style Taikenban|6107122|
+|SAMPLER|Frame Gride - Test Operation Disc|6107123|
+|SAMPLER|Fur Fighters (Demo)|8D000850|
+|SAMPLER|Fur Fighters - Dead or Alive 2 (Demo)|D000950|
+|SAMPLER|Generator Vol. 1|51034|
+|SAMPLER|Generator Vol. 2|MK51057|
+|SAMPLER|Giant Killers|T45401D50|WINCE|
+|SAMPLER|Guilty Gear X Taikenban|6107937|
+|SAMPLER|Gundam Battle Online Trial Edition|6108039|
+|SAMPLER|Imakoso!! Dreamcast with Special GD!!|6107993|
+|SAMPLER|Jojo no Kimyouna Bouken - Mirai He no Isan Tentou Taikenban|6107357|
+|SAMPLER|King of Fighters '99 Evolution Tentou-you Taikenban, The|6107800|
+|SAMPLER|King of Fighters, The - Dream Match 1999 Tentou-you Taikenban|6107157|
+|SAMPLER|Macross M3 Taikenban|6107961|
+|SAMPLER|Marvel vs. Capcom - Clash of Super Heroes Tentou Taikenban|6107121|
+|SAMPLER|Marvel vs. Capcom 2 - New Age of Heroes Tentou Taikenban|6107807|
+|SAMPLER|Memories Off 2nd - Promotion Disc|T19705M|
+|SAMPLER|Moero! Justice Gakuen Tentou Taikenban|6107970|
+|SAMPLER|Morita no Saikyou Reversi Tentou Taikenban|6107132|WINCE|
+|SAMPLER|MSR Opel Challenge|MK0001|
+|SAMPLER|Official Sega Dreamcast Magazine Vol. 10|IGN10|
+|SAMPLER|Official Sega Dreamcast Magazine Vol. 11|IGN11|
+|SAMPLER|Official Sega Dreamcast Magazine Vol. 2|IGN1|
+|SAMPLER|Official Sega Dreamcast Magazine Vol. 3|IGN2|
+|SAMPLER|Official Sega Dreamcast Magazine Vol. 4|IGN3|
+|SAMPLER|Official Sega Dreamcast Magazine Vol. 5|IGN4|
+|SAMPLER|Official Sega Dreamcast Magazine Vol. 6|IGN6|
+|SAMPLER|Official Sega Dreamcast Magazine Vol. 7|IGN7|
+|SAMPLER|Official Sega Dreamcast Magazine Vol. 8|IGN8|
+|SAMPLER|Official Sega Dreamcast Magazine Vol. 9|IGN9|
+|SAMPLER|PenPen TriIcelon Taikenban|6107102|
+|SAMPLER|Phantasy Star Online - Network Trial Edition|6107978|
+|SAMPLER|Power Smash 2 Taikenban|6108092|
+|SAMPLER|Power Stone 2 Tentou-you Demo Movie|6107808|
+|SAMPLER|Power Stone Tentou Taikenban|6107115|
+|SAMPLER|Pro Yakyuu Team wo Tamesou!|6107135|
+|SAMPLER|Psychic Force 2012 Taikenban|T1101M|
+|SAMPLER|Sakura Taisen 3 - Paris wa Moete Iru Ka Tentou-you Demo Movie|6108022|
+|SAMPLER|Sakura Taisen 4 - Koi Seyo Otome Tentou-you Demo Movie|6108333|
+|SAMPLER|San Francisco Rush 2049 Demo CD|9707ND|
+|SAMPLER|Sega GT - Homologation Special Taikenban|6107727|
+|SAMPLER|Seireiki Rayblade - Video ROM|6107747|
+|SAMPLER|Shutokou Battle 2 Taikenban|6107844|
+|SAMPLER|Silent Scope Tentou Taikenban|6107938|
+|SAMPLER|Sonic Adventure - Trial Version for E3|MK5100950|
+|SAMPLER|Sonic Adventure 2 - The Trial|6107994|
+|SAMPLER|Space Channel 5 Taikenban|6107368|
+|SAMPLER|Star Gladiator 2 - Nightmare of Bilstein Tentou Taikenban|6107181|
+|SAMPLER|Street Fighter III W Impact Tentou Taikenban|6107379|
+|SAMPLER|Virtua Tennis v1.000|5105450|
+|SAMPLER|Zombie Revenge Taikenban|6107353|
+|MULTIMEDIA|Capcom Taisen Fan Disc|6108086|
+|MULTIMEDIA|Dreamcast Middleware Conference Demo Disc|610SYKN002|
+|MULTIMEDIA|Happy Lesson - First Lesson|T19504M|WINCE|
+|MULTIMEDIA|Memories Off 2nd Making Disc|T19708M|
+|MULTIMEDIA|Project Berkley|HDR0002|
+|MULTIMEDIA|Quiz Aa Megami-Sama - Tatakau Tsubasa to Tomoni - Tokubetsu Omake GD-ROM|HDR0123|
+|MULTIMEDIA|Real Sound - Kaze no Regret|T30001M|
+|MULTIMEDIA|Sakura Taisen 3 - Paris wa Moete Iru Ka - Movie Disc|6108008|
+|MULTIMEDIA|Sentimental Graffiti 2 - Third Window|6107749|
+|MULTIMEDIA|Tokyo Bus Guide - Bijin Bus Guide Tenjou Disc|T35404M|
+|MULTIMEDIA|Tricolore Crise - Art Palette|6107933|
+|MULTIMEDIA|Virtua Fighter History - VF4 v1.001|6108087|
+|INDIE|4x4 JAM|T0000|
+|INDIE|Alice Dreams Tournament|T0000|
+|INDIE|Alice Sisters|T0000|
+|INDIE|Alice's Mom's Rescue|T0000|
+|INDIE|Andro Dunos|T0000|
+|INDIE|Andro Dunos 2|IND132603|
+|INDIE|Another World|T0000|
+|INDIE|Arcade Racing Legends|MK37792|
+|INDIE|Armed 7|MK6920|
+|INDIE|Bang² Busters|T0000|
+|INDIE|Battle Crust|T0000|
+|INDIE|Big2Small|MK03353|
+|INDIE|Breakers|T0000|
+|INDIE|Captain Barrel|T14A1|
+|INDIE|Captain Tomaday|MK6920|
+|INDIE|Cyborg Force|T0000|
+|INDIE|Cool Herders|T0000|
+|INDIE|Dráscula - The Vampire Strikes Back|T0000|
+|INDIE|Dreamcastnoid|T0000|
+|INDIE|DreamParaPara|T0000|
+|INDIE|Divi-Dead|T0000|
+|INDIE|Driving Strikers|IND100506|
+|INDIE|Driving Strikers (Holiday Demo)|KZ0002|
+|INDIE|Duke Nukem 3D - Atomic Edition|T0000|
+|INDIE|DUX|T0000|
+|INDIE|DUX 1.5|T0000|
+|INDIE|Elansar & Philia|T0000|
+|INDIE|Escape 2042 - The Truth Defenders|T0000|
+|INDIE|Fade To Black|T0000|
+|INDIE|Fast Striker 1.5|MK1014|
+|INDIE|Feet of Fury|T0000|
+|INDIE|Finding Teddy|T9464N|
+|INDIE|Flashback|T1623N|
+|INDIE|Flea!|T0000|
+|INDIE|Frog Feast|T1000|
+|INDIE|Fruit'Y|T0000|
+|INDIE|FX Unit Yuki|MK0788|
+|INDIE|Ganryu|T0000|
+|INDIE|Ghost Blade|T65181N|
+|INDIE|Ghoul Grind - Night of the Necromancer|T0000|
+|INDIE|Gigantic Army|HDR2982|
+|INDIE|GladMort|UNKNOWN|
+|INDIE|GunLord|MK1014|
+|INDIE|HarleQuest!|UNKNOWN|
+|INDIE|Hermes|T0000|
+|INDIE|Inhabitants|T0000|
+|INDIE|Intrepid Izzy|T0000|
+|INDIE|Irides - Master of Blocks|T0000|
+|INDIE|James & Watch - Arm|UNKNOWN|
+|INDIE|James & Watch - Tooth Cracker|UNKNOWN|
+|INDIE|Last Hope - Pink Bullets|NGDT300P|
+|INDIE|Leona's Tricky Adventures|T0000|
+|INDIE|Magic Pockets|MK91751|
+|INDIE|Maqiupai|JMD01|
+|INDIE|Mawthorne|T0000|
+|INDIE|Neo XYZ|MK1014|
+|INDIE|Non Casual Encounter (Prologue)|SS0001|
+|INDIE|Orion's Puzzle Collection|T0042|
+|INDIE|Philia - Sequel to Elansar|T0000|
+|INDIE|Pier Solar And The Great Architects|T65181N|
+|INDIE|Ploid|T0000|
+|INDIE|Polyko|T0000|
+|INDIE|Postal|T0000|
+|INDIE|Redux - Dark Matters|T0000|
+|INDIE|Reknum Souls Adventure|T0000|
+|INDIE|Rocketron|MJ27051999|
+|INDIE|Rush Rush Rally Reloaded|T0000|
+|INDIE|Satazius Next|MJ27051999|
+|INDIE|Shadow Gangs|MK36178|
+|INDIE|Sturmwind|DR001|
+|INDIE|Supercharged Robot Vulkaiser|MJ27051999|
+|INDIE|Tapeworm Disco Puzzle|T0000|
+|INDIE|The Escapee|MK6600|
+|INDIE|The Textorcist - The Story of Ray Bibbia|T666|
+|INDIE|Tough Guy|T0000|
+|INDIE|Volgarr The Viking|T0000|
+|INDIE|Wind And Water - Puzzle Battles|YW016|
+|INDIE|Witching Hour|NA666|
+|INDIE|Wolflame|MJ27051999|
+|INDIE|Xenocider|T2497N|
+|INDIE|Xeno Crisis|BB0001|
+|INDIE|Yeah Yeah Beebiss II|T0000|
+|INDIE|Zangeki Warp|MK74696|
+|INDIE|Zia and the Goddesses of Magic|T0042|
+|PORT|Doom 64|IND789519|
+|PORT|Grand Theft Auto III|DCALBRT|
+|PORT|Grand Theft Auto - Vice City|DCAMIAM|
+|PORT|Tomb Raider 1 (OpenLara)|T000001H|
+|EMULATION|Phantasy Star The Complete Collection|DCCRS33|
+|EMULATION|The Simpsons Collection|T0000|
+|EMULATION|TMNT - The Cowabunga Collection|T93355M|
+|PRE-DEMO|Castlevania - Resurrection|T000000|
+|TECH DEMO|The Simpsons - Bug Squad!|MK0001|
+|PROTOTYPE|Take The Bullet|T1000M|
+|SOFTWARE|VMU Archive|HKT7000|
+|SOFTWARE|Dreamshell v4.0.0 Release|DS400BETA|
+|SOFTWARE|CodeBreaker|FCD|
+|SOFTWARE|Dream Explorer|T0000|
+|SOFTWARE|XDP Limited Edition R4|MK51057|
+|SOFTWARE|Sega Swirl|T0000|
+|SOFTWARE|Megadrive Emulator|HDR0000|
+|SOFTWARE|HTTPD-ACK|T0000|
+|SOFTWARE|Phantasy Star Online Flash Tool|T1729M|
+|UNRELEASED|Dee Dee Planet|HDR0041|
+|UNRELEASED|Half-Life|T11001N|
+|UNRELEASED|Propeller Arena|MK51162|
+|UNRELEASED|Toejam And Earl 3|T0000M|
+|ATOMISWAVE|Demolish Fish|T0008M|
+|ATOMISWAVE|Dolphin Blue|T0006M|
+|ATOMISWAVE|Faster Than Speed|T0005M|
+|ATOMISWAVE|Fist of The North Star|T0009M|
+|ATOMISWAVE|Force Five|T0020M|
+|ATOMISWAVE|Guilty Gear X|T0011M|
+|ATOMISWAVE|Kenju|T0019M|
+|ATOMISWAVE|King of Fighters - Neowave|T0007M|
+|ATOMISWAVE|King of Fighters XI|T0001M|
+|ATOMISWAVE|Knights of Valour|T0004M|
+|ATOMISWAVE|Maximum Speed|T0006M|
+|ATOMISWAVE|Metal Slug 6|T0000M|
+|ATOMISWAVE|Neogeo Battle Coliseum|T0003M|
+|ATOMISWAVE|Rumble Fish|T0009M|
+|ATOMISWAVE|Rumble Fish 2|T0012M|
+|ATOMISWAVE|Samurai Shodown VI|T0002M|
+|SCUMMVM|Beavis & Butt-Head - In Virtual Stupidity|T0000|
+|SCUMMVM|Day of The Tentacle|HDR1501|
+|SCUMMVM|Comics Spider-Man - The Sinister Six|T5316N|
+|SCUMMVM|Duckman - The Graphic Adventures of A Private Dick|T0000|
+|SCUMMVM|Simon The Sorcerer|T0000|
+|SCUMMVM|Simon The Sorcerer II|T0000|
+|SCUMMVM|The Curse of The Monkey Island|T0000|
