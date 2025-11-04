@@ -6,7 +6,7 @@ a = Analysis(
     ['vmupro_converter.py'],
     pathex=[],
     binaries=[],
-    datas=[('icon.ico', '.')],  # Include icon file
+    datas=[('icon.ico', '.'), ('vmupro_gamedb.txt', '.')],  # Include icon and database file
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
