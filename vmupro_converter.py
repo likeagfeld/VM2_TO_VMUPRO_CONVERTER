@@ -405,11 +405,12 @@ This tool automatically detects game IDs using:
         notebook = ttk.Notebook(main_container)
         notebook.grid(row=0, column=0, sticky='nsew', padx=5, pady=5)
         
-        self.download_tab = ttk.Frame(notebook)
-        notebook.add(self.download_tab, text='Download Database')
-        self.download_tab.columnconfigure(0, weight=1)
-        self.download_tab.rowconfigure(0, weight=1)
-        self.create_download_ui()
+        # Disable Download Database tab - bundled database is complete
+        # self.download_tab = ttk.Frame(notebook)
+        # notebook.add(self.download_tab, text='Download Database')
+        # self.download_tab.columnconfigure(0, weight=1)
+        # self.download_tab.rowconfigure(0, weight=1)
+        # self.create_download_ui()
         
         self.converter_tab = ttk.Frame(notebook)
         notebook.add(self.converter_tab, text='Convert Saves')
@@ -1535,8 +1536,9 @@ This tool automatically detects game IDs using:
             for file_info in files:
                 size_str = f"{file_info['size'] / 1024:.1f} KB"
                 source_str = file_info['detection_source']
+                # Store full_path in 'Game' column for later lookup
                 self.source_tree.insert(game_node, 'end', text=file_info['filename'],
-                                       values=('', '', size_str, source_str),
+                                       values=(file_info['full_path'], '', size_str, source_str),
                                        tags=('file',))
         
         matched = len([g for g in game_files.keys() if 'unknown_' not in g])
@@ -1786,23 +1788,26 @@ This tool automatically detects game IDs using:
         for item in selected:
             item_text = self.source_tree.item(item, 'text')
             tags = self.source_tree.item(item, 'tags')
-            
+
             if 'game' in tags:
                 # Selected a game node - add all its files
                 for child in self.source_tree.get_children(item):
-                    child_text = self.source_tree.item(child, 'text')
+                    child_values = self.source_tree.item(child, 'values')
+                    file_full_path = child_values[0]  # We stored full_path in 'Game' column
+                    # Find the matching file in source_files by full path
                     for full_path, game_id, file_info in self.source_files:
-                        if file_info['filename'] == child_text and game_id == item_text:
+                        if full_path == file_full_path:
                             if full_path not in seen_paths:  # Only add if not already added
                                 files_to_convert.append((full_path, game_id, file_info))
                                 seen_paths.add(full_path)
                             break
             else:
                 # Selected a file node - add just that file
-                parent = self.source_tree.parent(item)
-                parent_text = self.source_tree.item(parent, 'text')
+                item_values = self.source_tree.item(item, 'values')
+                file_full_path = item_values[0]  # We stored full_path in 'Game' column
+                # Find the matching file in source_files by full path
                 for full_path, game_id, file_info in self.source_files:
-                    if file_info['filename'] == item_text and game_id == parent_text:
+                    if full_path == file_full_path:
                         if full_path not in seen_paths:  # Only add if not already added
                             files_to_convert.append((full_path, game_id, file_info))
                             seen_paths.add(full_path)
