@@ -405,11 +405,12 @@ This tool automatically detects game IDs using:
         notebook = ttk.Notebook(main_container)
         notebook.grid(row=0, column=0, sticky='nsew', padx=5, pady=5)
         
-        self.download_tab = ttk.Frame(notebook)
-        notebook.add(self.download_tab, text='Download Database')
-        self.download_tab.columnconfigure(0, weight=1)
-        self.download_tab.rowconfigure(0, weight=1)
-        self.create_download_ui()
+        # Disable Download Database tab - bundled database is complete
+        # self.download_tab = ttk.Frame(notebook)
+        # notebook.add(self.download_tab, text='Download Database')
+        # self.download_tab.columnconfigure(0, weight=1)
+        # self.download_tab.rowconfigure(0, weight=1)
+        # self.create_download_ui()
         
         self.converter_tab = ttk.Frame(notebook)
         notebook.add(self.converter_tab, text='Convert Saves')
@@ -1535,8 +1536,9 @@ This tool automatically detects game IDs using:
             for file_info in files:
                 size_str = f"{file_info['size'] / 1024:.1f} KB"
                 source_str = file_info['detection_source']
+                # Store full_path in 'Game' column for later lookup
                 self.source_tree.insert(game_node, 'end', text=file_info['filename'],
-                                       values=('', '', size_str, source_str),
+                                       values=(file_info['full_path'], '', size_str, source_str),
                                        tags=('file',))
         
         matched = len([g for g in game_files.keys() if 'unknown_' not in g])
@@ -1596,6 +1598,61 @@ This tool automatically detects game IDs using:
                 return variation
 
         return None
+
+    def format_game_id_with_hyphens(self, game_id):
+        """
+        Insert hyphens into game IDs to match VMUPro/Redump format.
+        Based on standard Dreamcast product code patterns.
+        VMUPro expects: HDR-0080, MK-51035, T-1201N (with hyphens)
+        Our database has: HDR0080, MK51035, T1201N (no hyphens)
+        """
+        if not game_id or '-' in game_id:
+            return game_id  # Already has hyphens or empty
+
+        # Common Dreamcast product code patterns:
+
+        # Pattern: T1201N → T-1201N (1 letter, 4 digits, 1+ letters)
+        match = re.match(r'^([A-Z])(\d{4})([A-Z]+)$', game_id)
+        if match:
+            return f"{match.group(1)}-{match.group(2)}{match.group(3)}"
+
+        # Pattern: T12345N50 → T-12345N-50 (1 letter, 5 digits, 1 letter, 2 digits)
+        match = re.match(r'^([A-Z])(\d{5})([A-Z])(\d{2})$', game_id)
+        if match:
+            return f"{match.group(1)}-{match.group(2)}{match.group(3)}-{match.group(4)}"
+
+        # Pattern: MK51035 → MK-51035 (2 letters, 5 digits)
+        match = re.match(r'^([A-Z]{2})(\d{5})$', game_id)
+        if match:
+            return f"{match.group(1)}-{match.group(2)}"
+
+        # Pattern: MK5103550 → MK-51035-50 (2 letters, 5 digits, 2 digits)
+        match = re.match(r'^([A-Z]{2})(\d{5})(\d{2})$', game_id)
+        if match:
+            return f"{match.group(1)}-{match.group(2)}-{match.group(3)}"
+
+        # Pattern: HDR0080 → HDR-0080 (3 letters, 4 digits)
+        match = re.match(r'^([A-Z]{3})(\d{4})$', game_id)
+        if match:
+            return f"{match.group(1)}-{match.group(2)}"
+
+        # Pattern: HDR008050 → HDR-0080-50 (3 letters, 4 digits, 2 digits)
+        match = re.match(r'^([A-Z]{3})(\d{4})(\d{2})$', game_id)
+        if match:
+            return f"{match.group(1)}-{match.group(2)}-{match.group(3)}"
+
+        # Pattern: 6107390 → 610-7390 (3 digits, 4 digits)
+        match = re.match(r'^(\d{3})(\d{4})$', game_id)
+        if match:
+            return f"{match.group(1)}-{match.group(2)}"
+
+        # Pattern: 610739050 → 610-7390-50 (3 digits, 4 digits, 2 digits)
+        match = re.match(r'^(\d{3})(\d{4})(\d{2})$', game_id)
+        if match:
+            return f"{match.group(1)}-{match.group(2)}-{match.group(3)}"
+
+        # No pattern matched - return as-is (e.g., GID format, special cases)
+        return game_id
 
     def generate_hyphen_variations(self, game_id):
         """Generate possible hyphen insertion variations for a game ID"""
@@ -1786,23 +1843,26 @@ This tool automatically detects game IDs using:
         for item in selected:
             item_text = self.source_tree.item(item, 'text')
             tags = self.source_tree.item(item, 'tags')
-            
+
             if 'game' in tags:
                 # Selected a game node - add all its files
                 for child in self.source_tree.get_children(item):
-                    child_text = self.source_tree.item(child, 'text')
+                    child_values = self.source_tree.item(child, 'values')
+                    file_full_path = child_values[0]  # We stored full_path in 'Game' column
+                    # Find the matching file in source_files by full path
                     for full_path, game_id, file_info in self.source_files:
-                        if file_info['filename'] == child_text and game_id == item_text:
+                        if full_path == file_full_path:
                             if full_path not in seen_paths:  # Only add if not already added
                                 files_to_convert.append((full_path, game_id, file_info))
                                 seen_paths.add(full_path)
                             break
             else:
                 # Selected a file node - add just that file
-                parent = self.source_tree.parent(item)
-                parent_text = self.source_tree.item(parent, 'text')
+                item_values = self.source_tree.item(item, 'values')
+                file_full_path = item_values[0]  # We stored full_path in 'Game' column
+                # Find the matching file in source_files by full path
                 for full_path, game_id, file_info in self.source_files:
-                    if file_info['filename'] == item_text and game_id == parent_text:
+                    if full_path == file_full_path:
                         if full_path not in seen_paths:  # Only add if not already added
                             files_to_convert.append((full_path, game_id, file_info))
                             seen_paths.add(full_path)
@@ -1839,23 +1899,27 @@ This tool automatically detects game IDs using:
             game_channel_counters = {}  # Track channel numbers per game
             
             for full_path, game_id, file_info in files_to_convert:
+                # Format game ID with hyphens for VMUPro compatibility
+                # E.g., HDR0080 → HDR-0080, MK51035 → MK-51035
+                formatted_id = self.format_game_id_with_hyphens(game_id)
+
                 # Initialize channel counter for this game if not exists
                 if game_id not in game_channel_counters:
                     game_channel_counters[game_id] = 1
-                
+
                 # Get the next channel number for this game
                 channel_no = str(game_channel_counters[game_id])
 
-                game_folder = os.path.join(dreamcast_folder, game_id)
+                game_folder = os.path.join(dreamcast_folder, formatted_id)
                 os.makedirs(game_folder, exist_ok=True)
 
-                dest_path = os.path.join(game_folder, f"{game_id}-{channel_no}.vmu")
+                dest_path = os.path.join(game_folder, f"{formatted_id}-{channel_no}.vmu")
 
                 # Ensure unique filename
                 while os.path.exists(dest_path):
                     game_channel_counters[game_id] += 1
                     channel_no = str(game_channel_counters[game_id])
-                    dest_path = os.path.join(game_folder, f"{game_id}-{channel_no}.vmu")
+                    dest_path = os.path.join(game_folder, f"{formatted_id}-{channel_no}.vmu")
                 
                 # Copy the file
                 shutil.copy2(full_path, dest_path)
