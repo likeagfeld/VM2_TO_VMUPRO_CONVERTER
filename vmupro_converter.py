@@ -231,7 +231,9 @@ class VMUProApp:
         """Load pipe-delimited database and create GID→Traditional ID mappings"""
         games = {}
         gid_map = {}
+        all_entries = []
 
+        # Pass 1: Collect all entries
         with open(filename, 'r', encoding='utf-8') as f:
             for line in f:
                 line = line.strip()
@@ -252,41 +254,47 @@ class VMUProApp:
                 if not game_id or not title:
                     continue
 
-                # Store game with all possible IDs
-                # For GID entries, we'll map them to traditional IDs later
-                if game_id.startswith('GID'):
-                    # This is a GID entry - we need to find the corresponding traditional ID
-                    # For now, store it with GID as key
-                    if game_id not in games:
-                        games[game_id] = {
-                            'gameid': game_id,
-                            'title': title,
-                            'region': region
-                        }
-                else:
-                    # This is a traditional game ID - store it normally
-                    # Also check if there's a GID entry for this game
-                    if game_id not in games:
-                        games[game_id] = {
-                            'gameid': game_id,
-                            'title': title,
-                            'region': region
-                        }
+                all_entries.append({
+                    'region': region,
+                    'title': title,
+                    'game_id': game_id
+                })
 
-                    # Check if we have a GID entry with the same title
-                    # Create mapping from GID to traditional ID
-                    for gid_key, gid_data in list(games.items()):
-                        if gid_key.startswith('GID') and gid_data['title'] == title:
-                            # Found a match! Map this GID to the traditional ID
-                            gid_map[gid_key] = game_id
-                            # Also add traditional ID as an alias
-                            games[game_id] = {
-                                'gameid': game_id,
-                                'title': title,
-                                'region': region,
-                                'gid': gid_key
-                            }
+        # Pass 2: Create games dict and GID mappings
+        # Process all entries and store in games dict
+        for entry in all_entries:
+            game_id = entry['game_id']
+            title = entry['title']
+            region = entry['region']
 
+            # Store in games dict
+            if game_id not in games:
+                games[game_id] = {
+                    'gameid': game_id,
+                    'title': title,
+                    'region': region
+                }
+
+        # Pass 3: Create GID→Traditional mappings by matching title AND region
+        for entry in all_entries:
+            if entry['game_id'].startswith('GID'):
+                # This is a GID - find matching traditional ID
+                gid = entry['game_id']
+                gid_title = entry['title']
+                gid_region = entry['region']
+
+                # Look for traditional ID with same title AND region
+                for other_entry in all_entries:
+                    if (not other_entry['game_id'].startswith('GID') and
+                        other_entry['title'] == gid_title and
+                        other_entry['region'] == gid_region):
+                        # Found matching traditional ID!
+                        traditional_id = other_entry['game_id']
+                        gid_map[gid] = traditional_id
+                        print(f"GID Mapping: {gid} ({gid_region}) → {traditional_id}")
+                        break
+
+        print(f"Created {len(gid_map)} GID→Traditional ID mappings")
         return games, gid_map
     
     def load_manual_mappings(self):
