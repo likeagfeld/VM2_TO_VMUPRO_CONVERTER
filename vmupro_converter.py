@@ -6,7 +6,7 @@ A Windows tool for converting Dreamcast VM2 save files (.vmu) to VMUPro format
 Credits:
 - VM2 Hardware: Created by DreamMods (modern VMU memory card device)
 - VMUPro Hardware: Created by 8bitmods (modern VMU memory card device)
-- Game Database: libretro-database project (https://github.com/libretro/libretro-database)
+- Game Database: K3zter/vmu-save-splitter (https://github.com/K3zter/vmu-save-splitter)
 """
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk, scrolledtext, simpledialog
@@ -14,128 +14,138 @@ import os
 import shutil
 import re
 import json
+import csv
 import threading
 from pathlib import Path
 from datetime import datetime
 import urllib.request
 import ssl
 import base64
-from io import BytesIO
+from io import BytesIO, StringIO
 
 # Embedded logo data (will be replaced with actual base64 encoded image)
 LOGO_BASE64 = ""
 
-class GitHubDATDownloader:
+class GitHubCSVDownloader:
     def __init__(self, progress_callback=None, status_callback=None):
         self.progress_callback = progress_callback
         self.status_callback = status_callback
         self.games = {}
-    
+
     def log(self, msg):
         if self.status_callback:
             self.status_callback(msg)
         print(msg)
-    
-    def download_dat_from_github(self):
-        """Download the DAT file from GitHub raw URL"""
-        url = "https://raw.githubusercontent.com/libretro/libretro-database/master/metadat/redump/Sega%20-%20Dreamcast.dat"
-        
+
+    def download_csv_from_github(self):
+        """Download the CSV database from K3zter's vmu-save-splitter repository"""
+        url = "https://raw.githubusercontent.com/K3zter/vmu-save-splitter/main/game-db.csv"
+
         self.log("=" * 60)
-        self.log("Downloading DAT file from GitHub...")
+        self.log("Downloading VMUPro Game Database from GitHub...")
+        self.log(f"Source: K3zter/vmu-save-splitter")
         self.log(f"URL: {url}")
         self.log("=" * 60)
-        
+
         try:
             ssl_context = ssl.create_default_context()
             ssl_context.check_hostname = False
             ssl_context.verify_mode = ssl.CERT_NONE
-            
+
             req = urllib.request.Request(
                 url,
                 headers={
                     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-                    'Accept': 'text/plain, text/html, */*',
+                    'Accept': 'text/plain, text/csv, */*',
                 }
             )
-            
+
             self.log("Connecting to GitHub...")
             with urllib.request.urlopen(req, context=ssl_context, timeout=30) as response:
                 content = response.read().decode('utf-8')
                 self.log(f"Downloaded {len(content)} bytes")
                 return content
-                
+
         except Exception as e:
             self.log(f"Error downloading from GitHub: {e}")
             return None
-    
-    def parse_dat_content(self, dat_content):
-        """Parse DAT file content and extract game information"""
+
+    def parse_csv_content(self, csv_content):
+        """Parse CSV file content and extract game information"""
         try:
-            self.log("\nParsing DAT file content...")
-            
-            game_pattern = r'game\s*\(\s*name\s+"([^"]+)"(?:\s+region\s+"([^"]*)")?(?:.*?serial\s+"([^"]+)")?.*?\)'
-            
-            matches = re.findall(game_pattern, dat_content, re.DOTALL)
-            
-            self.log(f"Found {len(matches)} game entries")
-            
+            self.log("\nParsing CSV database...")
+
+            # Skip the 'sep=;' line if present
+            lines = csv_content.strip().split('\n')
+            if lines[0].startswith('sep='):
+                lines = lines[1:]
+
+            csv_data = '\n'.join(lines)
+            reader = csv.DictReader(StringIO(csv_data), delimiter=';')
+
             count = 0
-            
-            for idx, match in enumerate(matches):
-                title = match[0].strip()
-                region = match[1].strip() if match[1] else "Unknown"
-                serial = match[2].strip() if match[2] else None
-                
-                if serial:
-                    serial_parts = serial.split()
-                    serial = serial_parts[0] if serial_parts else serial
-                    
-                    if serial not in self.games:
-                        self.games[serial] = {
-                            'gameid': serial,
+            for row in reader:
+                game_id = row.get('GameID', '').strip()
+                title = row.get('Title', '').strip()
+                region = row.get('Region', '').strip()
+                version = row.get('Version', '').strip()
+                languages = row.get('Languages', '').strip()
+
+                if game_id and title:
+                    # Remove trailing tildes used for padding in the CSV
+                    game_id_clean = game_id.rstrip('~')
+
+                    # Store with clean ID as key
+                    if game_id_clean not in self.games:
+                        self.games[game_id_clean] = {
+                            'gameid': game_id_clean,
                             'title': title,
-                            'region': region
+                            'region': region,
+                            'version': version,
+                            'languages': languages
                         }
                         count += 1
-                    
-                    if (idx + 1) % 100 == 0:
+
+                    if count % 100 == 0:
                         self.log(f"Parsed {count} unique games...")
                         if self.progress_callback:
                             self.progress_callback(count)
-            
+
             self.log(f"Total unique games parsed: {count}")
             return count
-            
+
         except Exception as e:
             self.log(f"Parse error: {e}")
+            import traceback
+            self.log(traceback.format_exc())
             return 0
-    
+
     def download_and_parse(self):
-        """Download DAT from GitHub and parse it"""
-        dat_content = self.download_dat_from_github()
-        
-        if not dat_content:
-            self.log("\nFailed to download DAT file from GitHub")
+        """Download CSV from GitHub and parse it"""
+        csv_content = self.download_csv_from_github()
+
+        if not csv_content:
+            self.log("\nFailed to download CSV file from GitHub")
             return 0
-        
-        count = self.parse_dat_content(dat_content)
+
+        count = self.parse_csv_content(csv_content)
         return count
-    
-    def save(self, filename='redump_dreamcast.json'):
+
+    def save(self, filename='vmupro_gamedb.json'):
         if not self.games:
             return False
-        
+
         database = {
-            'version': 2,
+            'version': 3,
             'last_updated': datetime.now().isoformat(),
             'total_games': len(self.games),
             'games': self.games,
-            'source': 'GitHub libretro-database'
+            'source': 'K3zter/vmu-save-splitter'
         }
-        
+
         with open(filename, 'w', encoding='utf-8') as f:
             json.dump(database, f, indent=2, ensure_ascii=False)
-        
+
         self.log(f"Database saved: {filename}")
         return True
 
@@ -170,15 +180,19 @@ class VMUProApp:
         self.create_ui()
     
     def load_database(self):
-        db_file = 'redump_dreamcast.json'
-        if Path(db_file).exists():
-            try:
-                with open(db_file, 'r', encoding='utf-8') as f:
-                    data = json.load(f)
-                    self.redump_db = data.get('games', {})
-                    print(f"Loaded {len(self.redump_db)} games from database")
-            except Exception as e:
-                print(f"Error loading database: {e}")
+        # Try new database file first, fall back to old one for compatibility
+        db_files = ['vmupro_gamedb.json', 'redump_dreamcast.json']
+        for db_file in db_files:
+            if Path(db_file).exists():
+                try:
+                    with open(db_file, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+                        self.redump_db = data.get('games', {})
+                        print(f"Loaded {len(self.redump_db)} games from {db_file}")
+                        return
+                except Exception as e:
+                    print(f"Error loading database {db_file}: {e}")
+        print("No database file found")
     
     def load_manual_mappings(self):
         """Load saved manual game ID mappings"""
@@ -217,8 +231,8 @@ class VMUProApp:
         ttk.Separator(frame, orient='horizontal').pack(fill='x', pady=10)
         
         credits_text = """
-A Windows tool for bulk converting Dreamcast VM2 
-save files to VMUPro format with intelligent 
+A Windows tool for bulk converting Dreamcast VM2
+save files to VMUPro format with intelligent
 game identification.
 
 CREDITS:
@@ -229,8 +243,9 @@ CREDITS:
 • VMUPro Hardware: Created by 8bitmods
   Modern VMU memory card device for Dreamcast
 
-• Game Database: libretro-database project
-  GitHub: github.com/libretro/libretro-database
+• Game Database: K3zter/vmu-save-splitter
+  VMUPro-compatible game database
+  GitHub: github.com/K3zter/vmu-save-splitter
 
 LICENSE: MIT License
 
@@ -295,10 +310,10 @@ This tool automatically detects game IDs using:
         frame.columnconfigure(0, weight=1)
         frame.rowconfigure(5, weight=1)
         
-        title = ttk.Label(frame, text="Download Dreamcast Database from GitHub", font=('Arial', 12, 'bold'))
+        title = ttk.Label(frame, text="Download VMUPro Game Database from GitHub", font=('Arial', 12, 'bold'))
         title.grid(row=0, column=0, sticky='w', pady=(0, 5))
-        
-        info = ttk.Label(frame, text="Downloads the latest Sega - Dreamcast.dat from libretro-database")
+
+        info = ttk.Label(frame, text="Downloads the latest VMUPro-compatible game database from K3zter/vmu-save-splitter")
         info.grid(row=1, column=0, sticky='w', pady=(0, 15))
         
         self.db_status = ttk.Label(frame, text=self.get_db_status())
@@ -335,21 +350,23 @@ This tool automatically detects game IDs using:
         thread.start()
     
     def download_worker(self):
-        downloader = GitHubDATDownloader(
+        downloader = GitHubCSVDownloader(
             progress_callback=self.update_download_progress,
             status_callback=self.append_download_status
         )
-        
+
         try:
             count = downloader.download_and_parse()
             if count > 0:
-                downloader.save('redump_dreamcast.json')
+                downloader.save('vmupro_gamedb.json')
                 self.redump_db = downloader.games
                 self.root.after(0, lambda: self.finalize_download(True, count))
             else:
                 self.root.after(0, lambda: self.finalize_download(False, 0))
         except Exception as e:
             self.append_download_status(f"Error: {e}")
+            import traceback
+            self.append_download_status(traceback.format_exc())
             self.root.after(0, lambda: self.finalize_download(False, 0))
     
     def update_download_progress(self, value):
@@ -1591,16 +1608,18 @@ This tool automatically detects game IDs using:
         if not files_to_convert:
             messagebox.showwarning("No Files", "No valid files found in selection")
             return
-        
-        unknown_count = sum(1 for _, gid, _ in files_to_convert if 'unknown_' in gid)
-        if unknown_count > 0:
-            result = messagebox.askyesno("Unknown Games", 
-                                        f"{unknown_count} file(s) have unknown game IDs.\n\n"
-                                        "Continue conversion anyway?\n"
-                                        "(Files will be placed in separate folders by source location)\n\n"
-                                        "TIP: Right-click or double-click unknown games to manually map them first.")
-            if not result:
-                return
+
+        # Check for unknown games and block conversion
+        unknown_files = [(path, gid, info) for path, gid, info in files_to_convert if 'unknown_' in gid]
+        if unknown_files:
+            messagebox.showerror(
+                "Cannot Convert Unknown Games",
+                f"{len(unknown_files)} file(s) have unknown game IDs and cannot be converted.\n\n"
+                "VMUPro requires valid game IDs for all saves.\n\n"
+                "Please use 'Reconcile Unknown Games' to manually map them first,\n"
+                "or deselect them before converting."
+            )
+            return
         
         self.convert_btn.config(state='disabled')
         self.status_label.config(text=f"Converting {len(files_to_convert)} files...")
@@ -1622,17 +1641,17 @@ This tool automatically detects game IDs using:
                     game_channel_counters[game_id] = 1
                 
                 # Get the next channel number for this game
-                channel_no = str(game_channel_counters[game_id]).zfill(2)
-                
+                channel_no = str(game_channel_counters[game_id])
+
                 game_folder = os.path.join(dreamcast_folder, game_id)
                 os.makedirs(game_folder, exist_ok=True)
-                
+
                 dest_path = os.path.join(game_folder, f"{game_id}-{channel_no}.vmu")
-                
+
                 # Ensure unique filename
                 while os.path.exists(dest_path):
                     game_channel_counters[game_id] += 1
-                    channel_no = str(game_channel_counters[game_id]).zfill(2)
+                    channel_no = str(game_channel_counters[game_id])
                     dest_path = os.path.join(game_folder, f"{game_id}-{channel_no}.vmu")
                 
                 # Copy the file
