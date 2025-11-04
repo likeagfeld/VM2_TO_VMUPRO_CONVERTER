@@ -1,0 +1,245 @@
+|PAL|Aqua GT|GID007|
+|PAL|Buggy Heat|GID012|
+|PAL|Daytona USA 2001|GID032|
+|PAL|Evil Dead - Hail to the King|GID048|
+|PAL|Evil Twin - Cyprien's Chronicles|GID049|
+|PAL|F1 Racing Championship|GID052|
+|PAL|F1 World Grand Prix|GID053|
+|PAL|F1 World Grand Prix II|GID054|
+|PAL|Fighting Vipers 2|GID058|
+|PAL|GK-Giant Killers|GID063|
+|PAL|Grand Theft Auto 2|GID064|
+|PAL|Headhunter|GID067|
+|PAL|Jet Set Radio|GID075|
+|PAL|Moho|GID094|
+|PAL|Monaco Grand Prix Racing Simulation 2|GID096|
+|PAL|Pro Pinball - Trilogy|GID123|
+|PAL|Rez|GID137|
+|PAL|Sega Extreme Sports|GID144|
+|PAL|Sega Worldwide Soccer 2000|GID148|
+|PAL|Shenmue II|GID151|
+|PAL|Soul Fighter (EU)|GID162|
+|PAL|Spirit of Speed 1937|GID169|
+|PAL|Stunt GP|GID176|
+|PAL|Tokyo Highway Challenge|GID192|
+|PAL|Tokyo Highway Challenge 2|GID193|
+|PAL|Tony Hawk's Skateboarding|GID202|
+|PAL|Toy Racer|GID204|
+|PAL|UEFA Dream Soccer|GID207|
+|PAL|UEFA Striker|GID208|
+|PAL|Virtua Athlete 2K|GID214|
+|PAL|Virtua Tennis 2|GID217|
+|PAL|Who Wants to Be a Millionaire|GID221|
+|PAL|Worms Armageddon (EU)|GID227|
+|PAL|90 Minutes - Sega Championship Football|GID001|
+|USA|18 Wheeler - American Pro Trucker|GID000|
+|USA|CRI (AeroWings | Surf Rocket Racers)|GID002|
+|USA|AeroWings 2-Airstrike|GID003|
+|USA|Airforce Delta|GID004|
+|USA|Alien Front Online|GID005|
+|USA|Alone in the Dark - The New Nightmare|GID006|
+|USA|Armada|GID008|
+|USA|BANG! - Gunship Elite|GID009|
+|USA|Blue Stinger|GID010|
+|USA|Bomberman Online|GID011|
+|USA|Bust-A-Move 4|GID013|
+|USA|Buzz Lightyear of Star Command|GID014|
+|USA|Caesars Palace 2000 - Millennium Gold Edition|GID015|
+|USA|Cannon Spike|GID016|
+|USA|Capcom vs. SNK|GID017|
+|USA|Carrier|GID018|
+|USA|Centipede|GID019|
+|USA|Championship Surfer|GID020|
+|USA|Charge 'n Blast|GID021|
+|USA|Chicken Run|GID022|
+|USA|ChuChu Rocket!|GID023|
+|USA|Coaster Works|GID024|
+|USA|Confidential Mission|GID025|
+|USA|Conflict Zone - Modern War Strategy|GID026|
+|USA|Crazy Taxi|GID027|
+|USA|Crazy Taxi 2|GID028|
+|USA|D2|GID029|
+|USA|Dave Mirra Freestyle BMX|GID030|
+|USA|Daytona USA|GID031|
+|USA|Dead or Alive 2|GID033|
+|USA|Deep Fighter|GID034|
+|USA|Demolition Racer - No Exit|GID035|
+|USA|Dino Crisis|GID036|
+|USA|Dinosaur|GID037|
+|USA|Donald Duck - Goin' Quackers|GID038|
+|USA|Draconus - Cult of the Wyrm|GID039|
+|USA|DragonRiders - Chronicles of Pern|GID040|
+|USA|Ducati World - Racing Challenge|GID041|
+|USA|Dynamite Cop!|GID042|
+|USA|Ecco the Dolphin - Defender of the Future|GID043|
+|USA|ECW|GID044|
+|USA|Elemental Gimmick Gear|GID045|
+|USA|ESPN International Track & Field|GID046|
+|USA|ESPN NBA 2night|GID047|
+|USA|Evolution - The World of Sacred Device|GID050|
+|USA|Expendable|GID051|
+|USA|F355 Challenge - Passione Rossa|GID055|
+|USA|Fatal Fury - Mark of the Wolves|GID056|
+|USA|Fighting Force 2|GID057|
+|USA|Floigan Bros. - Episode 1|GID059|
+|USA|Frogger 2 - Swampy's Revenge|GID060|
+|USA|Gauntlet Legends|GID061|
+|USA|GigaWing 2|GID062|
+|USA|Grandia II|GID065|
+|USA|Gundam - Side Story 0079 - Rise from the Ashes|GID066|
+|USA|Heavy Metal - Geomatrix|GID068|
+|USA|Hidden & Dangerous|GID069|
+|USA|Hoyle Casino|GID070|
+|USA|Illbleed|GID071|
+|USA|Iron Aces|GID072|
+|USA|Jeremy McGrath Supercross 2000|GID073|
+|USA|Jet Grind Radio|GID074|
+|USA|Jojo's Bizarre Adventure|GID076|
+|USA|Kao the Kangaroo|GID077|
+|USA|King of Fighters Evolution, The|GID078|
+|USA|King of Fighters, The - Dream Match 1999|GID079|
+|USA|Kiss Psycho Circus - The Nightmare Child|GID080|
+|USA|Last Blade 2, The Heart of the Samurai|GID081|
+|USA|Legacy of Kain - Soul Reaver|GID082|
+|USA|Looney Tunes Space Race|GID083|
+|USA|Magforce Racing|GID084|
+|USA|Maken X|GID085|
+|USA|Mars Matrix|GID086|
+|USA|Marvel vs. Capcom - Clash of Super Heroes|GID087|
+|USA|Marvel vs. Capcom 2|GID088|
+|USA|Mat Hoffman's Pro BMX|GID089|
+|USA|Max Steel - Covert Missions|GID090|
+|USA|Maximum Pool|GID091|
+|USA|MDK 2|GID092|
+|USA|Metropolis Street Racer|GID093|
+|USA|Monaco Grand Prix|GID095|
+|USA|Mortal Kombat Gold|GID097|
+|USA|Mr Driller|GID098|
+|USA|Ms. Pac-Man - Maze Madness|GID099|
+|USA|MTV Sports - Skateboarding Featuring Andy Macdonald|GID100|
+|USA|Namco Museum|GID101|
+|USA|NBA 2K|GID102|
+|USA|NBA 2K1|GID103|
+|USA|NBA 2K2|GID104|
+|USA|NBA Hoopz|GID105|
+|USA|NCAA College Football 2K2 - Road to the Rose Bowl|GID106|
+|USA|Next Tetris, The - On-line Edition|GID107|
+|USA|NFL 2K|GID108|
+|USA|NFL 2K2|GID109|
+|USA|NFL QB Club 2001|GID110|
+|USA|NFL Quarterback Club 2000|GID111|
+|USA|NHL 2K2|GID112|
+|USA|Nightmare Creatures II|GID113|
+|USA|Omikron - The Nomad Soul|GID114|
+|USA|Ooga Booga|GID115|
+|USA|Outtrigger|GID116|
+|USA|PenPen Trilcelon|GID117|
+|USA|Phantasy Star Online|GID118|
+|USA|Plasma Sword - Nightmare of Bilstein|GID119|
+|USA|POD - Speedzone|GID120|
+|USA|Power Stone|GID121|
+|USA|Power Stone 2|GID122|
+|USA|Project Justice|GID124|
+|USA|Psychic Force 2012|GID125|
+|USA|Quake III Arena|GID126|
+|USA|Railroad Tycoon II - Gold Edition|GID127|
+|USA|Rayman 2 - The Great Escape|GID128|
+|USA|Razor Freestyle Scooter|GID129|
+|USA|Ready 2 Rumble Boxing Round 2|GID130|
+|USA|Red Dog - Superior Firepower|GID131|
+|USA|Reel Fishing - Wild|GID132|
+|USA|Resident Evil - Code Veronica|GID133|
+|USA|Resident Evil 2|GID134|
+|USA|Resident Evil 3 - Nemesis|GID135|
+|USA|Re-Volt|GID136|
+|USA|Rippin' Riders Snowboarding|GID138|
+|USA|Samba De Amigo|GID139|
+|USA|San Francisco Rush 2049|GID140|
+|USA|Seaman|GID141|
+|USA|Sega Bass Fishing|GID142|
+|USA|Sega Bass Fishing 2|GID143|
+|USA|Sega GT|GID145|
+|USA|Sega Marine Fishing|GID146|
+|USA|Sega Smashpack Volume 1|GID147|
+|USA|Shadow Man|GID149|
+|USA|Shenmue|GID150|
+|USA|Shenmue Passport|GID152|
+|USA|Silent Scope|GID153|
+|USA|Silver|GID154|
+|USA|Skies of Arcadia|GID155|
+|USA|Soldier of Fortune|GID156|
+|USA|Sonic Adventure|GID157|
+|USA|Sonic Adventure 2|GID158|
+|USA|Sonic Shuffle|GID159|
+|USA|Soul Calibur|GID160|
+|USA|Soul Fighter (US)|GID161|
+|USA|South Park Rally|GID163|
+|USA|Space Channel 5|GID164|
+|USA|Spawn - In the Demon's Hand|GID165|
+|USA|Spec Ops II - Omega Squad|GID166|
+|USA|Speed Devils|GID167|
+|USA|Spider-Man|GID168|
+|USA|Sports Jam|GID170|
+|USA|Star Wars - Demolition|GID171|
+|USA|Street Fighter Alpha 3|GID172|
+|USA|Street Fighter III - 3rd Strike|GID173|
+|USA|Street Fighter III - Double Impact|GID174|
+|USA|Striker Pro 2000|GID175|
+|USA|Stupid Invaders|GID177|
+|USA|Super Magnetic Neo|GID178|
+|USA|Super Runabout - San Francisco Edition|GID179|
+|USA|Suzuki ALSTARE Extreme Racing|GID180|
+|USA|Sword of the Berserk - Guts' Rage|GID181|
+|USA|Sydney 2000|GID182|
+|USA|Tech Romancer|GID183|
+|USA|Tee Off|GID184|
+|USA|Tennis 2K2|GID185|
+|USA|Test Drive 6|GID186|
+|USA|Test Drive Le Mans|GID187|
+|USA|Test Drive V-Rally|GID188|
+|USA|TimeStalkers|GID189|
+|USA|TITUS (Exhibition of Speed - Roadsters)|GID190|
+|USA|TNN Motorsports Hardcore Heat|GID191|
+|USA|Tokyo Xtreme Racer|GID194|
+|USA|Tokyo Xtreme Racer 2|GID195|
+|USA|Tom Clancy's Rainbow Six|GID196|
+|USA|Tom Clancy's Rainbow Six - Rogue Spear|GID197|
+|USA|Tomb Raider - The Last Revelation|GID198|
+|USA|Tomb Raider Chronicles|GID199|
+|USA|Tony Hawk's Pro Skater|GID200|
+|USA|Tony Hawk's Pro Skater 2|GID201|
+|USA|Toy Commander|GID203|
+|USA|Toy Story 2 - Buzz Lightyear to the Rescue!|GID205|
+|USA|TrickStyle|GID206|
+|USA|Unreal Tournament|GID209|
+|USA|Urban Chaos|GID210|
+|USA|Vanishing Point|GID211|
+|USA|Vigilante 8 - 2nd Offense|GID212|
+|USA|Virtua Athlete 2000|GID213|
+|USA|Virtua Striker 2|GID215|
+|USA|Virtua Tennis|GID216|
+|USA|Wacky Races|GID218|
+|USA|Walt Disney World Quest - Magical Racing Tour|GID219|
+|USA|Wetrix+|GID220|
+|USA|Who Wants to Beat Up a Millionaire|GID222|
+|USA|Wild Metal|GID223|
+|USA|World Series Baseball 2K1|GID224|
+|USA|World Series Baseball 2K2|GID225|
+|USA|Worms Armageddon (US)|GID226|
+|USA|Worms World Party|GID228|
+|USA|WWF Attitude|GID229|
+|USA|WWF Royal Rumble|GID230|
+|USA|Xtreme Sports|GID231|
+|USA|18 Wheeler - American Pro Trucker|MK-51064|
+|USA|Crazy Taxi 2|MK-51136|
+|USA|Daytona USA|MK-51037|
+|USA|Power Stone|T-1201N|
+|USA|Power Stone 2|T-1211N|
+|JAP|18 Wheeler - American Pro Trucker|HDR-0080|
+|JAP|Crazy Taxi 2|HDR-0159|
+|JAP|Daytona USA 2001|HDR-0106|
+|UNRELEASED|Dee Dee Planet|HDR-0041|
+|SOFTWARE|VMU Archive|HKT-7000|
+|INDIE|Cool Herders|T0000|
+|INDIE|4x4 JAM|T0000|
+|USA|TNN Motorsports Hardcore Heat|T0000M|

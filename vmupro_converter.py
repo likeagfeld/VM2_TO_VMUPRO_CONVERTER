@@ -185,6 +185,7 @@ class VMUProApp:
         self.style.theme_use('clam')
         
         self.redump_db = {}
+        self.gid_to_traditional = {}  # Maps GID### to traditional game IDs
         self.source_files = []
         self.dest_files = []
         self.source_folder = tk.StringVar()
@@ -199,7 +200,17 @@ class VMUProApp:
         self.create_ui()
     
     def load_database(self):
-        # Try new database file first, fall back to old one for compatibility
+        # Try local pipe-delimited database first
+        if Path('vmupro_gamedb.txt').exists():
+            try:
+                self.redump_db, self.gid_to_traditional = self.load_pipe_delimited_db('vmupro_gamedb.txt')
+                print(f"Loaded {len(self.redump_db)} games from vmupro_gamedb.txt")
+                print(f"Created {len(self.gid_to_traditional)} GID mappings")
+                return
+            except Exception as e:
+                print(f"Error loading vmupro_gamedb.txt: {e}")
+
+        # Fall back to JSON databases for compatibility
         db_files = ['vmupro_gamedb.json', 'redump_dreamcast.json']
         for db_file in db_files:
             if Path(db_file).exists():
@@ -207,11 +218,76 @@ class VMUProApp:
                     with open(db_file, 'r', encoding='utf-8') as f:
                         data = json.load(f)
                         self.redump_db = data.get('games', {})
+                        self.gid_to_traditional = {}
                         print(f"Loaded {len(self.redump_db)} games from {db_file}")
                         return
                 except Exception as e:
                     print(f"Error loading database {db_file}: {e}")
+
         print("No database file found")
+        self.gid_to_traditional = {}
+
+    def load_pipe_delimited_db(self, filename):
+        """Load pipe-delimited database and create GID→Traditional ID mappings"""
+        games = {}
+        gid_map = {}
+
+        with open(filename, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+
+                # Skip empty lines and comments
+                if not line or line.startswith('#'):
+                    continue
+
+                # Parse: |Region|Title|GameID|Optional|
+                parts = line.split('|')
+                if len(parts) < 4:
+                    continue
+
+                region = parts[1].strip()
+                title = parts[2].strip()
+                game_id = parts[3].strip()
+
+                if not game_id or not title:
+                    continue
+
+                # Store game with all possible IDs
+                # For GID entries, we'll map them to traditional IDs later
+                if game_id.startswith('GID'):
+                    # This is a GID entry - we need to find the corresponding traditional ID
+                    # For now, store it with GID as key
+                    if game_id not in games:
+                        games[game_id] = {
+                            'gameid': game_id,
+                            'title': title,
+                            'region': region
+                        }
+                else:
+                    # This is a traditional game ID - store it normally
+                    # Also check if there's a GID entry for this game
+                    if game_id not in games:
+                        games[game_id] = {
+                            'gameid': game_id,
+                            'title': title,
+                            'region': region
+                        }
+
+                    # Check if we have a GID entry with the same title
+                    # Create mapping from GID to traditional ID
+                    for gid_key, gid_data in list(games.items()):
+                        if gid_key.startswith('GID') and gid_data['title'] == title:
+                            # Found a match! Map this GID to the traditional ID
+                            gid_map[gid_key] = game_id
+                            # Also add traditional ID as an alias
+                            games[game_id] = {
+                                'gameid': game_id,
+                                'title': title,
+                                'region': region,
+                                'gid': gid_key
+                            }
+
+        return games, gid_map
     
     def load_manual_mappings(self):
         """Load saved manual game ID mappings"""
@@ -1457,11 +1533,18 @@ This tool automatically detects game IDs using:
         """
         Fuzzy match a potential game ID against the database.
         Tries multiple hyphen insertion patterns and variations.
+        Also maps GID format to traditional game IDs.
         """
         if not potential_id:
             return None
 
         potential_id = potential_id.upper().strip()
+
+        # Check if this is a GID and map to traditional ID
+        if potential_id.startswith('GID') and potential_id in self.gid_to_traditional:
+            traditional_id = self.gid_to_traditional[potential_id]
+            print(f"Mapped {potential_id} → {traditional_id}")
+            return traditional_id
 
         # Direct match first
         if potential_id in self.redump_db:
@@ -1469,6 +1552,12 @@ This tool automatically detects game IDs using:
 
         # Try without hyphens - compare stripped versions
         stripped_input = potential_id.replace('-', '').replace('_', '')
+
+        # Check if stripped version is a GID
+        if stripped_input.startswith('GID') and stripped_input in self.gid_to_traditional:
+            traditional_id = self.gid_to_traditional[stripped_input]
+            print(f"Mapped {stripped_input} → {traditional_id}")
+            return traditional_id
 
         for db_id in self.redump_db.keys():
             stripped_db = db_id.replace('-', '').replace('_', '')
